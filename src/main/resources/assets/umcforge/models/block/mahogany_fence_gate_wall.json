@@ -1,6 +1,0 @@
-{
-  "parent": "block/template_fence_gate_wall",
-  "textures": {
-    "texture": "umcforge:blocks/mahogany_planks"
-  }
-}
