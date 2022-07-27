@@ -1,22 +1,22 @@
 
-# UMC Core [Forge]
-
-Yet another core mod but from the UMC Team
+## Blog Info
+#### Welcome to the blog page in here we will talk about development of the UMC Core for forge.
+## Blog
+we are Currently working on:
+1. Making fully playable in survival
+2. more features
+3. updating the wiki
+## Notes
+#### 1. If you have any issues please report them on the issues page
+#### 2. Currently non-playable in survival
+#### 3. A fabric port is planned for the future
+#### 4. release 1.0.0 will be fully playable in survival
 
 ## Authors
 
 - [@Its Mr. Shmello](https://theumcnetwork.com/its-mr-shmello)
 - [@UMCNetwork](https://www.theumcnetwork.com)
 
-## FAQ
-
-#### What is UMC [FORGE]?
-
-UMC [FORGE] Is a core mod for the UMC Team to use in (Forge) modpacks.
-
-#### Where can i find the mod wiki?
-
-Over on the UMC Website https://theumcnetwork.com/umc-core (page under construction).
 
 ## License
 
