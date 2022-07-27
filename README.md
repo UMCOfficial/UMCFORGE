@@ -11,6 +11,7 @@ we are Currently working on:
 #### 2. Currently non-playable in survival
 #### 3. A fabric port is planned for the future
 #### 4. release 1.0.0 will be fully playable in survival
+#### 5. we update the repository a couple times a day when we update the mod for backups
 
 ## Authors
 
