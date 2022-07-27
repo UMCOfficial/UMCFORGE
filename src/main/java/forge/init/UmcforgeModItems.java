@@ -25,6 +25,7 @@ import forge.item.DisceriteItem;
 import forge.item.DiscCoreItem;
 import forge.item.DiscBenchOnAStickItem;
 import forge.item.BreadOrDeadItem;
+import forge.item.BreadEssenceItem;
 import forge.item.BlankEssenceItem;
 
 import forge.UmcforgeMod;
@@ -59,6 +60,7 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> UNAVAILABLE_1 = REGISTRY.register("unavailable_1", () -> new Unavailable1Item());
 	public static final RegistryObject<Item> ANCIENT_HOUSE_IN_A_BOX = block(UmcforgeModBlocks.ANCIENT_HOUSE_IN_A_BOX, UmcforgeModTabs.TAB_UMC_BIOMES);
 	public static final RegistryObject<Item> SPACEY_ESSENCE = REGISTRY.register("spacey_essence", () -> new SpaceyEssenceItem());
+	public static final RegistryObject<Item> BREAD_ESSENCE = REGISTRY.register("bread_essence", () -> new BreadEssenceItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
