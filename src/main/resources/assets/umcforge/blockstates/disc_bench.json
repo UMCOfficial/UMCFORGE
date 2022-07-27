@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "umcforge:block/disc_bench"
+    }
+  }
+}

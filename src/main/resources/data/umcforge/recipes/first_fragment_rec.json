@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "umcforge:discerite"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "umcforge:discerite"
+    },
+    {
+      "item": "umcforge:first_essence"
+    },
+    {
+      "item": "umcforge:discerite"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "umcforge:discerite"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "result": {
+    "item": "umcforge:first_fragment",
+    "count": 1
+  }
+}

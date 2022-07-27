@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.TOTEM_OF_UNDYING"
+      },
+      {
+        "value": "CUSTOM:Discerite"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "CUSTOM:Discerite"
+      },
+      {
+        "value": "CUSTOM:FirstEssence"
+      },
+      {
+        "value": "CUSTOM:Discerite"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "CUSTOM:Discerite"
+      },
+      {
+        "value": "Items.TOTEM_OF_UNDYING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FirstFragment"
+    },
+    "name": "first_fragment_rec",
+    "namespace": "mod"
+  }
+}

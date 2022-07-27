@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "umcforge:blocks/mahogany_log_top",
+    "up": "umcforge:blocks/mahogany_log_top",
+    "north": "umcforge:blocks/mahogany_log_side",
+    "east": "umcforge:blocks/mahogany_log_side",
+    "south": "umcforge:blocks/mahogany_log_side",
+    "west": "umcforge:blocks/mahogany_log_side",
+    "particle": "umcforge:blocks/mahogany_log_top"
+  }
+}

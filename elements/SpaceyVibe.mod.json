@@ -1,0 +1,22 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "spaceyvibe",
+    "name": "Spacey Vibe",
+    "description": "Its Mr. Shmello - Spacey Vibe",
+    "creativeTab": {
+      "value": "CUSTOM:UMCDiscs"
+    },
+    "music": {
+      "value": "CUSTOM:spaceyvibe"
+    },
+    "specialInfo": [
+      "Send People To Space"
+    ],
+    "hasGlow": true,
+    "onEntityHitWith": {
+      "name": "SpaceyVibeLivingEntityIsHitWithItem"
+    }
+  }
+}

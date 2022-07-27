@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "umcforge:mahogany_planks"
+    }
+  ],
+  "result": {
+    "item": "umcforge:mahogany_button",
+    "count": 1
+  }
+}

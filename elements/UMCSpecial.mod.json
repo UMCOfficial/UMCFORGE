@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "UMC Special",
+    "icon": {
+      "value": "CUSTOM:Discerite"
+    },
+    "showSearch": true
+  }
+}

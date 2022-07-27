@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="umcforge"
+version="0.6.0"
+displayName="UMC Core [FORGE]"
+credits="Its Mr . Shmello"
+displayURL="https://www.theumcnetwork.com"
+logoFile="logo.png"
+authors="UMC Network"
+description='''
+UMC Core mod
+'''
+
+[[dependencies.umcforge]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.umcforge]]
+    modId="just_enough_items"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.umcforge]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

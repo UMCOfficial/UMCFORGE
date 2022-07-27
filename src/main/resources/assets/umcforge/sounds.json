@@ -1,0 +1,38 @@
+{
+  "breadordead": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "umcforge:bredboi89",
+        "stream": true
+      }
+    ]
+  },
+  "firsthour": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "umcforge:firsthour",
+        "stream": true
+      }
+    ]
+  },
+  "spaceyvibe": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "umcforge:spacy_vibe",
+        "stream": true
+      }
+    ]
+  },
+  "oceanfish": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "umcforge:ocean_fish",
+        "stream": false
+      }
+    ]
+  }
+}

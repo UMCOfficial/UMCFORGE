@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "essencor2",
+        "1": "essencor1"
+      },
+      "name": "default"
+    }
+  }
+}

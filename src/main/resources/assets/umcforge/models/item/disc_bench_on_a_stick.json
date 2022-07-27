@@ -1,0 +1,9 @@
+{
+  "parent": "umcforge:custom/dsicbenchonastick",
+  "textures": {
+    "0": "umcforge:blocks/db2",
+    "1": "umcforge:blocks/db1",
+    "2": "umcforge:blocks/oak-planks-7",
+    "particle": "umcforge:items/db2"
+  }
+}

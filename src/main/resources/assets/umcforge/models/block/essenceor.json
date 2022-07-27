@@ -1,0 +1,9 @@
+{
+  "parent": "umcforge:custom/essencor",
+  "textures": {
+    "all": "umcforge:blocks/essencor2",
+    "particle": "umcforge:blocks/essencor2",
+    "0": "umcforge:blocks/essencor2",
+    "1": "umcforge:blocks/essencor1"
+  }
+}

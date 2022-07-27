@@ -1,0 +1,10 @@
+{
+  "parent": "umcforge:custom/discbench",
+  "textures": {
+    "all": "umcforge:blocks/db1",
+    "particle": "umcforge:blocks/dbp",
+    "0": "umcforge:blocks/db2",
+    "1": "umcforge:blocks/db1",
+    "2": "umcforge:blocks/oak-planks-7"
+  }
+}
