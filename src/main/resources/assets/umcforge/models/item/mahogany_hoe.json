@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "umcforge:items/mahogany_hoe"
+  }
+}

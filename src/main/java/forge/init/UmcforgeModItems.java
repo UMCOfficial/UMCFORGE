@@ -17,6 +17,11 @@ import forge.item.Unavailable1Item;
 import forge.item.SpaceyVibeItem;
 import forge.item.SpaceyEssenceItem;
 import forge.item.SpaceFragmentItem;
+import forge.item.MahoganySwordItem;
+import forge.item.MahoganyShovelItem;
+import forge.item.MahoganyPickaxeItem;
+import forge.item.MahoganyHoeItem;
+import forge.item.MahoganyAxeItem;
 import forge.item.FirstHourItem;
 import forge.item.FirstFragmentItem;
 import forge.item.FirstEssenceItem;
@@ -61,6 +66,11 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> ANCIENT_HOUSE_IN_A_BOX = block(UmcforgeModBlocks.ANCIENT_HOUSE_IN_A_BOX, UmcforgeModTabs.TAB_UMC_BIOMES);
 	public static final RegistryObject<Item> SPACEY_ESSENCE = REGISTRY.register("spacey_essence", () -> new SpaceyEssenceItem());
 	public static final RegistryObject<Item> BREAD_ESSENCE = REGISTRY.register("bread_essence", () -> new BreadEssenceItem());
+	public static final RegistryObject<Item> MAHOGANY_PICKAXE = REGISTRY.register("mahogany_pickaxe", () -> new MahoganyPickaxeItem());
+	public static final RegistryObject<Item> MAHOGANY_AXE = REGISTRY.register("mahogany_axe", () -> new MahoganyAxeItem());
+	public static final RegistryObject<Item> MAHOGANY_SWORD = REGISTRY.register("mahogany_sword", () -> new MahoganySwordItem());
+	public static final RegistryObject<Item> MAHOGANY_SHOVEL = REGISTRY.register("mahogany_shovel", () -> new MahoganyShovelItem());
+	public static final RegistryObject<Item> MAHOGANY_HOE = REGISTRY.register("mahogany_hoe", () -> new MahoganyHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -591,6 +591,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bread_essence"
+    },
+    {
+      "name": "MahoganyPickaxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_pickaxe"
+    },
+    {
+      "name": "MahoganyAxe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_axe"
+    },
+    {
+      "name": "MahoganySword",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_sword"
+    },
+    {
+      "name": "MahoganyShovel",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_shovel"
+    },
+    {
+      "name": "MahoganyHoe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_hoe"
+    },
+    {
+      "name": "MahoganyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_pickaxe_recipe"
+    },
+    {
+      "name": "MahoganyAxeRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_axe_recipe"
+    },
+    {
+      "name": "MahoganySwordRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_sword_recipe"
+    },
+    {
+      "name": "MahoganyShovelRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_shovel_recipe"
+    },
+    {
+      "name": "MahoganyHoeRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_hoe_recipe"
     }
   ],
   "variable_elements": [],
@@ -631,6 +711,7 @@
   "language_map": {
     "en_us": {
       "item.umcdiscs.bread_or_dead": "Bread Or Dead",
+      "item.umcforge.mahogany_sword": "Mahogany Sword",
       "item.umccore.space_fragment": "Space Fragment",
       "biome.umcforge.mahogany_forest": "Mahogany Forest",
       "item.umcdiscs.first_fragment": "First Fragment",
@@ -651,6 +732,7 @@
       "block.umcforge.mahogany_button": "Mahogany Button",
       "item.umcforge.bread_essence": "Bread Essence",
       "block.umcforge.mahogany_pressure_plate": "Mahogany Pressure Plate",
+      "item.umcforge.mahogany_axe": "Mahogany Axe",
       "block.umccore.mahogany_wood": "Mahogany Wood",
       "block.umcforge.mahogany_stairs": "Mahogany Stairs",
       "item.umcforge.bread_or_dead.desc": "Its Mr. Shmello, Icquid - Bread Or Dead",
@@ -662,6 +744,7 @@
       "block.umccore.mahogany_leaves": "Mahogany Leaves",
       "block.umccore.mahogany_button": "Mahogany Button",
       "block.umcforge.mahogany_wood": "Mahogany Wood",
+      "item.umcforge.mahogany_shovel": "Mahogany Shovel",
       "item.umcforge.first_essence": "FirstEssence",
       "item.umcforge.essencor_on_a_stick": "Essencor On A Stick",
       "block.umcforge.mahogany_planks": "Mahogany Planks",
@@ -701,8 +784,10 @@
       "itemGroup.tabumc_biomes": "UMC Biomes",
       "block.umccore.discerite_ore": "Discerite Ore",
       "item.umcforge.space_fragment": "Space Fragment",
+      "item.umcforge.mahogany_hoe": "Mahogany Hoe",
       "item.umcforge.first_fragment": "First Fragment",
       "block.umcforge.discerite_ore": "Discerite Ore",
+      "item.umcforge.mahogany_pickaxe": "Mahogany Pickaxe",
       "block.umcforge.mahogany_fence": "Mahogany Fence",
       "item.umccore.first_hour": "FirstHour",
       "subtitles.oceanfish": "",
