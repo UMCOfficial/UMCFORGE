@@ -30,6 +30,7 @@ import forge.item.DisceriteItem;
 import forge.item.DiscCoreItem;
 import forge.item.DiscBenchOnAStickItem;
 import forge.item.BreadOrDeadItem;
+import forge.item.BreadFragmentItem;
 import forge.item.BreadEssenceItem;
 import forge.item.BlankEssenceItem;
 
@@ -71,6 +72,7 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> MAHOGANY_SWORD = REGISTRY.register("mahogany_sword", () -> new MahoganySwordItem());
 	public static final RegistryObject<Item> MAHOGANY_SHOVEL = REGISTRY.register("mahogany_shovel", () -> new MahoganyShovelItem());
 	public static final RegistryObject<Item> MAHOGANY_HOE = REGISTRY.register("mahogany_hoe", () -> new MahoganyHoeItem());
+	public static final RegistryObject<Item> BREAD_FRAGMENT = REGISTRY.register("bread_fragment", () -> new BreadFragmentItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

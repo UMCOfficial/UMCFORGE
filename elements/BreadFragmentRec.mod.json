@@ -10,24 +10,6 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.TOTEM_OF_UNDYING"
-      },
-      {
-        "value": "CUSTOM:Discerite"
-      },
-      {
-        "value": "Items.GOLDEN_APPLE#1"
-      },
-      {
-        "value": "CUSTOM:Discerite"
-      },
-      {
-        "value": "CUSTOM:FirstEssence"
-      },
-      {
-        "value": "CUSTOM:Discerite"
-      },
-      {
         "value": "Items.GOLDEN_APPLE#1"
       },
       {
@@ -35,12 +17,30 @@
       },
       {
         "value": "Items.TOTEM_OF_UNDYING"
+      },
+      {
+        "value": "CUSTOM:Discerite"
+      },
+      {
+        "value": "CUSTOM:BreadEssence"
+      },
+      {
+        "value": "CUSTOM:Discerite"
+      },
+      {
+        "value": "Items.TOTEM_OF_UNDYING"
+      },
+      {
+        "value": "CUSTOM:Discerite"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FirstFragment"
+      "value": "CUSTOM:BreadFragment"
     },
-    "name": "first_fragment_rec",
+    "name": "bread_fragment_rec",
     "namespace": "mod"
   }
 }

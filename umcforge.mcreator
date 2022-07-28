@@ -518,10 +518,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -671,6 +667,66 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_hoe_recipe"
+    },
+    {
+      "name": "SendmetoheavenCommandExecuted",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sendmetoheaven_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sendmetoheaven",
+      "type": "command",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sendmetoheaven"
+    },
+    {
+      "name": "BreadFragment",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_fragment"
+    },
+    {
+      "name": "BreadFragmentRec",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_fragment_rec"
+    },
+    {
+      "name": "SpaceyFragmentRec",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spacey_fragment_rec"
     }
   ],
   "variable_elements": [],
@@ -744,6 +800,7 @@
       "block.umccore.mahogany_leaves": "Mahogany Leaves",
       "block.umccore.mahogany_button": "Mahogany Button",
       "block.umcforge.mahogany_wood": "Mahogany Wood",
+      "item.umcforge.bread_fragment": "Bread Fragment",
       "item.umcforge.mahogany_shovel": "Mahogany Shovel",
       "item.umcforge.first_essence": "FirstEssence",
       "item.umcforge.essencor_on_a_stick": "Essencor On A Stick",
@@ -783,7 +840,7 @@
       "item.umccore.bread_or_dead.desc": "Its Mr. Shmello, Icquid - Bread Or Dead",
       "itemGroup.tabumc_biomes": "UMC Biomes",
       "block.umccore.discerite_ore": "Discerite Ore",
-      "item.umcforge.space_fragment": "Space Fragment",
+      "item.umcforge.space_fragment": "Spacey Fragment",
       "item.umcforge.mahogany_hoe": "Mahogany Hoe",
       "item.umcforge.first_fragment": "First Fragment",
       "block.umcforge.discerite_ore": "Discerite Ore",

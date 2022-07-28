@@ -19,7 +19,7 @@
       "item": "umcforge:discerite"
     },
     "4": {
-      "item": "umcforge:first_essence"
+      "item": "umcforge:spacey_essence"
     },
     "5": {
       "item": "umcforge:discerite"
@@ -35,7 +35,7 @@
     }
   },
   "result": {
-    "item": "umcforge:first_fragment",
+    "item": "umcforge:space_fragment",
     "count": 1
   }
 }

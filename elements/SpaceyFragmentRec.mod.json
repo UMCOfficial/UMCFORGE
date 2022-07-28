@@ -22,7 +22,7 @@
         "value": "CUSTOM:Discerite"
       },
       {
-        "value": "CUSTOM:FirstEssence"
+        "value": "CUSTOM:SpaceyEssence"
       },
       {
         "value": "CUSTOM:Discerite"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:FirstFragment"
+      "value": "CUSTOM:SpaceFragment"
     },
-    "name": "first_fragment_rec",
+    "name": "spacey_fragment_rec",
     "namespace": "mod"
   }
 }

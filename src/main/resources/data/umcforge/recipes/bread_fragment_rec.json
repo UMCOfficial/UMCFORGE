@@ -7,35 +7,35 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:enchanted_golden_apple"
     },
     "1": {
       "item": "umcforge:discerite"
     },
     "2": {
-      "item": "minecraft:enchanted_golden_apple"
+      "item": "minecraft:totem_of_undying"
     },
     "3": {
       "item": "umcforge:discerite"
     },
     "4": {
-      "item": "umcforge:first_essence"
+      "item": "umcforge:bread_essence"
     },
     "5": {
       "item": "umcforge:discerite"
     },
     "6": {
-      "item": "minecraft:enchanted_golden_apple"
+      "item": "minecraft:totem_of_undying"
     },
     "7": {
       "item": "umcforge:discerite"
     },
     "8": {
-      "item": "minecraft:totem_of_undying"
+      "item": "minecraft:enchanted_golden_apple"
     }
   },
   "result": {
-    "item": "umcforge:first_fragment",
+    "item": "umcforge:bread_fragment",
     "count": 1
   }
 }

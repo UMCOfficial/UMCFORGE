@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "soacefragment",
     "customModelName": "Normal",
-    "name": "Space Fragment",
+    "name": "Spacey Fragment",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:UMCFragments"
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Used To Make Spacey Vibe"
+      "Used to make Spacey Vibe in the disc bench"
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

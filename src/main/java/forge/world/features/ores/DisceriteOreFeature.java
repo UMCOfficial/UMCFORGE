@@ -47,7 +47,7 @@ public class DisceriteOreFeature extends OreFeature {
 				new OreConfiguration(DisceriteOreFeatureRuleTest.INSTANCE, UmcforgeModBlocks.DISCERITE_ORE.get().defaultBlockState(), 2));
 		PLACED_FEATURE = PlacementUtils.register("umcforge:discerite_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(26)), BiomeFilter.biome()));
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(-52), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -84,7 +84,7 @@ public class DisceriteOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE);
+				base_blocks = List.of(Blocks.DEEPSLATE);
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

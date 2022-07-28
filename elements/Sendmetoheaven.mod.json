@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "command",
+  "definition": {
+    "commandName": "sendmetoheaven",
+    "permissionLevel": "No requirement",
+    "onCommandExecuted": {
+      "name": "SendmetoheavenCommandExecuted"
+    }
+  }
+}

@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "spaceyfragment",
+    "texture": "breadfragment",
     "customModelName": "Normal",
-    "name": "Spacey Essence",
+    "name": "Bread Fragment",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "CUSTOM:UMCEssences"
+      "value": "CUSTOM:UMCFragments"
     },
     "stackSize": 1,
     "enchantability": 0,
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Used to make Spacey Vibe"
+      "Used to make Bread Or Dead in the disc bench"
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

@@ -18,9 +18,9 @@ import java.util.List;
 
 import forge.init.UmcforgeModTabs;
 
-public class SpaceyEssenceItem extends Item {
-	public SpaceyEssenceItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_ESSENCES).stacksTo(1).fireResistant().rarity(Rarity.RARE));
+public class BreadFragmentItem extends Item {
+	public BreadFragmentItem() {
+		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_FRAGMENTS).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override
@@ -47,6 +47,6 @@ public class SpaceyEssenceItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Used to make Spacey Vibe"));
+		list.add(new TextComponent("Used to make Bread Or Dead in the disc bench"));
 	}
 }
