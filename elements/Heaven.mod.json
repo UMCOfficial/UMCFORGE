@@ -1,0 +1,75 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:MahoganyForest"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "deep_warm_ocean"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "lukewarm_ocean"
+      },
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "warm_ocean"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.DEEPSLATE"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:AncientHouseInABox"
+    },
+    "portalParticles": {
+      "value": "SPIT"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "CUSTOM:oceanfish"
+    },
+    "igniterName": "Heaven Portal Thing",
+    "igniterTab": {
+      "value": "CUSTOM:UMCSpecial"
+    },
+    "texture": "heaventhing",
+    "portalTexture": "db1",
+    "enablePortal": false
+  }
+}

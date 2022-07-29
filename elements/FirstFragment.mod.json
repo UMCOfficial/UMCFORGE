@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Used to create FirstHour in the disc bench"
+      "Used to create FirstHour"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

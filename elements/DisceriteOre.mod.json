@@ -122,18 +122,26 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "Nether",
+      "End"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.END_STONE"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 2,
-    "minGenerateHeight": -52,
-    "maxGenerateHeight": 0
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 26
   }
 }

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "umcforge:textures/umc.png",
+    "icon": {
+      "item": "umcforge:disc_core"
+    },
+    "title": {
+      "translate": "advancements.umc.title"
+    },
+    "description": {
+      "translate": "advancements.umc.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "umc": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

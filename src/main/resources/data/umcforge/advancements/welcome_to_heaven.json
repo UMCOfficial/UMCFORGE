@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_heaven.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_heaven.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "welcome_to_heaven": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "umcforge:heaven"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 16
+  },
+  "parent": "umcforge:umc"
+}

@@ -74,7 +74,7 @@ public class WBGUIScreen extends AbstractContainerScreen<WBGUIMenu> {
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Crafting", 24, 4, -12829636);
 		this.font.draw(poseStack, "Inventory", 6, 70, -12829636);
-		this.font.draw(poseStack, "theumcnetwork.com", 78, 70, -12829636);
+		this.font.draw(poseStack, "theumcnetwork.com", 78, 61, -12829636);
 	}
 
 	@Override

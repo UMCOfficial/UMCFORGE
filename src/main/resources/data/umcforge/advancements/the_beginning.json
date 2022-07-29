@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "umcforge:unavailable_1"
+    },
+    "title": {
+      "translate": "advancements.the_beginning.title"
+    },
+    "description": {
+      "translate": "advancements.the_beginning.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_beginning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "umcforge:mahogany_forest"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 28
+  },
+  "parent": "umcforge:umc"
+}

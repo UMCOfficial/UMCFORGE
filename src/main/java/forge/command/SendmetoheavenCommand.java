@@ -45,7 +45,7 @@ public class SendmetoheavenCommand {
 			index[0]++;
 		});
 
-		SendmetoheavenCommandExecutedProcedure.execute(world, x, y, z);
+		SendmetoheavenCommandExecutedProcedure.execute(world, entity);
 		return 0;
 	}
 }

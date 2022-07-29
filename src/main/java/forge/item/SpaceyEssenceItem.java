@@ -47,6 +47,6 @@ public class SpaceyEssenceItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Used to make Spacey Vibe"));
+		list.add(new TextComponent("Used to make people ascend into heaven"));
 	}
 }
