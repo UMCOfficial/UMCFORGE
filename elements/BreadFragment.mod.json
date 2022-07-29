@@ -31,6 +31,12 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onCrafted": {
+      "name": "Fragmentscraftedsmelted"
+    },
+    "onItemInInventoryTick": {
+      "name": "FragmentsInventory"
+    },
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 4,

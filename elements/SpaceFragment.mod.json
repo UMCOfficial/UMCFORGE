@@ -34,6 +34,9 @@
     "onCrafted": {
       "name": "Fragmentscraftedsmelted"
     },
+    "onItemInInventoryTick": {
+      "name": "FragmentsInventory"
+    },
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 4,

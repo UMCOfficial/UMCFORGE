@@ -1,13 +1,14 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "umcforge:essenceor"
+      "item": "umcforge:space_fragment"
     },
     "title": {
-      "translate": "advancements.essence_away.title"
+      "translate": "advancements.fragment_2.title"
     },
     "description": {
-      "translate": "advancements.essence_away.descr"
+      "translate": "advancements.fragment_2.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,13 +16,13 @@
     "hidden": false
   },
   "criteria": {
-    "essence_away": {
+    "fragment_2": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "umcforge:essenceor"
+              "umcforge:space_fragment"
             ],
             "count": {
               "min": 1,
@@ -31,9 +32,5 @@
         ]
       }
     }
-  },
-  "rewards": {
-    "experience": 4
-  },
-  "parent": "umcforge:getting_started"
+  }
 }

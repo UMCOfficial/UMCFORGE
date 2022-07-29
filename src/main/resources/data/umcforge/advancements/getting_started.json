@@ -32,16 +32,5 @@
       }
     }
   },
-  "rewards": {
-    "experience": 0,
-    "recipes": [
-      "umcforge:smeltoredisc",
-      "umcforge:smeltorediscblast",
-      "umcforge:first_fragment_rec",
-      "umcforge:bread_fragment_rec",
-      "umcforge:spacey_fragment_rec",
-      "umcforge:wb_rec"
-    ]
-  },
   "parent": "umcforge:the_beginning"
 }

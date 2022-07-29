@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "fh",
+    "texture": "unavailable2",
     "customModelName": "Normal",
-    "name": "First Fragment",
-    "rarity": "RARE",
+    "name": "Unavailable 2",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:UMCFragments"
+      "value": "MISC"
     },
-    "stackSize": 1,
+    "stackSize": 0,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 0.0,
@@ -19,24 +19,16 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Used to create FirstHour"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onCrafted": {
-      "name": "Fragmentscraftedsmelted"
-    },
-    "onItemInInventoryTick": {
-      "name": "FragmentsInventory"
-    },
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 4,
@@ -46,6 +38,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "spear"
+    "animation": "eat"
   }
 }

@@ -13,14 +13,7 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [
-      "Smeltoredisc",
-      "Smeltorediscblast",
-      "FirstFragmentRec",
-      "BreadFragmentRec",
-      "SpaceyFragmentRec",
-      "WBRec"
-    ],
+    "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",
