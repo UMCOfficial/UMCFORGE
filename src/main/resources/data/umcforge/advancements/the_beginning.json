@@ -23,7 +23,23 @@
     }
   },
   "rewards": {
-    "experience": 28
+    "experience": 28,
+    "recipes": [
+      "umcforge:mahogany_wood_recipe",
+      "umcforge:mahogany_planks_recipe",
+      "umcforge:mahogany_stairs_recipe",
+      "umcforge:mahogany_slab_recipe",
+      "umcforge:mahogany_fence_recipe",
+      "umcforge:mahogany_fence_gate_recipe",
+      "umcforge:mahogany_pressure_plate_recipe",
+      "umcforge:mahogany_button_recipe",
+      "umcforge:mahogany_stick_recipe",
+      "umcforge:mahogany_pickaxe_recipe",
+      "umcforge:mahogany_axe_recipe",
+      "umcforge:mahogany_sword_recipe",
+      "umcforge:mahogany_shovel_recipe",
+      "umcforge:mahogany_hoe_recipe"
+    ]
   },
   "parent": "umcforge:umc"
 }
