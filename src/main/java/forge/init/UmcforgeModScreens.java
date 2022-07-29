@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import forge.client.gui.WBGUIScreen;
 import forge.client.gui.EssenceGUIScreen;
 import forge.client.gui.BenchScreen;
 
@@ -21,6 +22,7 @@ public class UmcforgeModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(UmcforgeModMenus.BENCH, BenchScreen::new);
 			MenuScreens.register(UmcforgeModMenus.ESSENCE_GUI, EssenceGUIScreen::new);
+			MenuScreens.register(UmcforgeModMenus.WBGUI, WBGUIScreen::new);
 		});
 	}
 }

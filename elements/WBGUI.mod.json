@@ -1,0 +1,235 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Crafting",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Crafting",
+          "x": 150,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": true,
+          "name": "arrow.png",
+          "x": 213,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inventory",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Inventory",
+          "x": 132,
+          "y": 107
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #0",
+          "x": 150,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #1",
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #2",
+          "x": 150,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #3",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #4",
+          "x": 168,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #5",
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #6",
+          "x": 186,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #7",
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "WBGUIP"
+          },
+          "name": "Slot #8",
+          "x": 186,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "theumcnetwork.com",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "theumcnetwork.com",
+          "x": 204,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

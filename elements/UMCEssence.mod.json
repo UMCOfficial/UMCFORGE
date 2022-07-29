@@ -1,0 +1,26 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:FirstEssence"
+      },
+      {
+        "value": "CUSTOM:SpaceyEssence"
+      },
+      {
+        "value": "CUSTOM:BreadEssence"
+      },
+      {
+        "value": "CUSTOM:BlankEssence"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "umc_essence",
+    "namespace": "mod"
+  }
+}

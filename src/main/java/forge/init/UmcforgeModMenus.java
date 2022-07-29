@@ -15,6 +15,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import java.util.List;
 import java.util.ArrayList;
 
+import forge.world.inventory.WBGUIMenu;
 import forge.world.inventory.EssenceGUIMenu;
 import forge.world.inventory.BenchMenu;
 
@@ -24,6 +25,7 @@ public class UmcforgeModMenus {
 	public static final MenuType<BenchMenu> BENCH = register("bench", (id, inv, extraData) -> new BenchMenu(id, inv, extraData));
 	public static final MenuType<EssenceGUIMenu> ESSENCE_GUI = register("essence_gui",
 			(id, inv, extraData) -> new EssenceGUIMenu(id, inv, extraData));
+	public static final MenuType<WBGUIMenu> WBGUI = register("wbgui", (id, inv, extraData) -> new WBGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

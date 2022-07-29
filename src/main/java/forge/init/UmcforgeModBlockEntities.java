@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import forge.block.entity.WorkbenchBlockEntity;
 import forge.block.entity.EssenceorBlockEntity;
 import forge.block.entity.DiscBenchBlockEntity;
 
@@ -21,6 +22,7 @@ public class UmcforgeModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> DISC_BENCH = register("disc_bench", UmcforgeModBlocks.DISC_BENCH,
 			DiscBenchBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ESSENCEOR = register("essenceor", UmcforgeModBlocks.ESSENCEOR, EssenceorBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> WORKBENCH = register("workbench", UmcforgeModBlocks.WORKBENCH, WorkbenchBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

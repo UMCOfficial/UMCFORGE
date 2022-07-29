@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "umcforge:blocks/wb1",
+    "up": "umcforge:blocks/wb4",
+    "north": "umcforge:blocks/wb2",
+    "east": "umcforge:blocks/wb3",
+    "south": "umcforge:blocks/wb2",
+    "west": "umcforge:blocks/wb3",
+    "particle": "umcforge:blocks/wb1"
+  }
+}

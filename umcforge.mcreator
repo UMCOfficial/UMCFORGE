@@ -727,6 +727,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "spacey_fragment_rec"
+    },
+    {
+      "name": "UMCEssence",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umc_essence"
+    },
+    {
+      "name": "UMCFragment",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "umc_fragment"
+    },
+    {
+      "name": "WBGUI",
+      "type": "gui",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wbgui"
+    },
+    {
+      "name": "WBGUIP",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wbguip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Workbench",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbench"
     }
   ],
   "variable_elements": [],
@@ -770,6 +818,7 @@
       "item.umcforge.mahogany_sword": "Mahogany Sword",
       "item.umccore.space_fragment": "Space Fragment",
       "biome.umcforge.mahogany_forest": "Mahogany Forest",
+      "block.umcforge.workbench": "Workbench",
       "item.umcdiscs.first_fragment": "First Fragment",
       "item.umccore.bread_or_dead": "Bread Or Dead",
       "item.umccore.first_fragment": "First Fragment",

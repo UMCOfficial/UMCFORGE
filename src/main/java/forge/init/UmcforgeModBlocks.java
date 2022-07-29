@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import forge.block.WorkbenchBlock;
 import forge.block.MahoganyWoodBlock;
 import forge.block.MahoganyStairsBlock;
 import forge.block.MahoganySlabBlock;
@@ -49,6 +50,7 @@ public class UmcforgeModBlocks {
 	public static final RegistryObject<Block> DISCERITE_ORE = REGISTRY.register("discerite_ore", () -> new DisceriteOreBlock());
 	public static final RegistryObject<Block> ANCIENT_HOUSE_IN_A_BOX = REGISTRY.register("ancient_house_in_a_box",
 			() -> new AncientHouseInABoxBlock());
+	public static final RegistryObject<Block> WORKBENCH = REGISTRY.register("workbench", () -> new WorkbenchBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "umcforge:bread_essence",
+    "umcforge:first_essence",
+    "umcforge:blank_essence",
+    "umcforge:spacey_essence"
+  ]
+}

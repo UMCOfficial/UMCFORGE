@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "umcforge:block/workbench",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "umcforge:block/workbench"
+    },
+    "axis=z": {
+      "model": "umcforge:block/workbench",
+      "x": 90
+    }
+  }
+}

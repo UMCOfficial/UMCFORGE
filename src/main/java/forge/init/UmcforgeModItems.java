@@ -73,6 +73,7 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> MAHOGANY_SHOVEL = REGISTRY.register("mahogany_shovel", () -> new MahoganyShovelItem());
 	public static final RegistryObject<Item> MAHOGANY_HOE = REGISTRY.register("mahogany_hoe", () -> new MahoganyHoeItem());
 	public static final RegistryObject<Item> BREAD_FRAGMENT = REGISTRY.register("bread_fragment", () -> new BreadFragmentItem());
+	public static final RegistryObject<Item> WORKBENCH = block(UmcforgeModBlocks.WORKBENCH, UmcforgeModTabs.TAB_UMC_SPECIAL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
