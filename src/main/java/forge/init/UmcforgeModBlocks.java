@@ -36,6 +36,7 @@ public class UmcforgeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, UmcforgeMod.MODID);
 	public static final RegistryObject<Block> DISC_BENCH = REGISTRY.register("disc_bench", () -> new DiscBenchBlock());
 	public static final RegistryObject<Block> ESSENCEOR = REGISTRY.register("essenceor", () -> new EssenceorBlock());
+	public static final RegistryObject<Block> WORKBENCH = REGISTRY.register("workbench", () -> new WorkbenchBlock());
 	public static final RegistryObject<Block> MAHOGANY_WOOD = REGISTRY.register("mahogany_wood", () -> new MahoganyWoodBlock());
 	public static final RegistryObject<Block> MAHOGANY_LOG = REGISTRY.register("mahogany_log", () -> new MahoganyLogBlock());
 	public static final RegistryObject<Block> MAHOGANY_PLANKS = REGISTRY.register("mahogany_planks", () -> new MahoganyPlanksBlock());
@@ -47,10 +48,9 @@ public class UmcforgeModBlocks {
 	public static final RegistryObject<Block> MAHOGANY_FENCE_GATE = REGISTRY.register("mahogany_fence_gate", () -> new MahoganyFenceGateBlock());
 	public static final RegistryObject<Block> MAHOGANY_PRESSURE_PLATE = REGISTRY.register("mahogany_pressure_plate",
 			() -> new MahoganyPressurePlateBlock());
-	public static final RegistryObject<Block> DISCERITE_ORE = REGISTRY.register("discerite_ore", () -> new DisceriteOreBlock());
 	public static final RegistryObject<Block> ANCIENT_HOUSE_IN_A_BOX = REGISTRY.register("ancient_house_in_a_box",
 			() -> new AncientHouseInABoxBlock());
-	public static final RegistryObject<Block> WORKBENCH = REGISTRY.register("workbench", () -> new WorkbenchBlock());
+	public static final RegistryObject<Block> DISCERITE_ORE = REGISTRY.register("discerite_ore", () -> new DisceriteOreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

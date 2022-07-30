@@ -10,7 +10,6 @@ import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.CountPlacement;
 import net.minecraft.world.level.levelgen.placement.BiomeFilter;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer;
-import net.minecraft.world.level.levelgen.feature.treedecorators.AlterGroundDecorator;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
@@ -41,8 +40,6 @@ import java.util.List;
 import forge.init.UmcforgeModBlocks;
 import forge.init.UmcforgeModBiomes;
 
-import com.google.common.collect.ImmutableList;
-
 public class MahoganyForestBiome {
 	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.057142857143f, 0.057142857143f),
 			Climate.Parameter.span(-0.057142857143f, 0.057142857143f), Climate.Parameter.span(0.452857142857f, 0.567142857143f),
@@ -55,14 +52,12 @@ public class MahoganyForestBiome {
 				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("umcforge:oceanfish")), 12000, 24000, true)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("umcforge:tree_mahogany_forest",
-						FeatureUtils.register("umcforge:tree_mahogany_forest", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+				PlacementUtils.register("umcforge:tree_mahogany_forest", FeatureUtils.register("umcforge:tree_mahogany_forest", Feature.TREE,
+						new TreeConfiguration.TreeConfigurationBuilder(
 								BlockStateProvider.simple(UmcforgeModBlocks.MAHOGANY_LOG.get().defaultBlockState()), new GiantTrunkPlacer(7, 2, 14),
 								BlockStateProvider.simple(UmcforgeModBlocks.MAHOGANY_LEAVES.get().defaultBlockState()),
-								new MegaPineFoliagePlacer(ConstantInt.of(0), ConstantInt.of(0), UniformInt.of(13, 17)),
-								new TwoLayersFeatureSize(1, 1, 2))
-								.decorators(ImmutableList.of(new AlterGroundDecorator(BlockStateProvider.simple(Blocks.PODZOL.defaultBlockState()))))
-								.build()),
+								new MegaPineFoliagePlacer(ConstantInt.of(0), ConstantInt.of(0), UniformInt.of(3, 4)),
+								new TwoLayersFeatureSize(1, 1, 2)).build()),
 						List.of(CountPlacement.of(1), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
 								BiomeFilter.biome())));

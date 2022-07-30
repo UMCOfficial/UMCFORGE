@@ -20,7 +20,7 @@ import forge.procedures.AncientHouseInABoxBlockIsPlacedByProcedure;
 
 public class AncientHouseInABoxBlock extends Block {
 	public AncientHouseInABoxBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f));
 	}
 
 	@Override

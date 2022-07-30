@@ -39,15 +39,16 @@ import forge.UmcforgeMod;
 
 public class UmcforgeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, UmcforgeMod.MODID);
-	public static final RegistryObject<Item> BREAD_OR_DEAD = REGISTRY.register("bread_or_dead", () -> new BreadOrDeadItem());
 	public static final RegistryObject<Item> FIRST_HOUR = REGISTRY.register("first_hour", () -> new FirstHourItem());
 	public static final RegistryObject<Item> SPACEY_VIBE = REGISTRY.register("spacey_vibe", () -> new SpaceyVibeItem());
+	public static final RegistryObject<Item> BREAD_OR_DEAD = REGISTRY.register("bread_or_dead", () -> new BreadOrDeadItem());
 	public static final RegistryObject<Item> DISC_CORE = REGISTRY.register("disc_core", () -> new DiscCoreItem());
 	public static final RegistryObject<Item> DISC_BENCH = block(UmcforgeModBlocks.DISC_BENCH, UmcforgeModTabs.TAB_UMC_SPECIAL);
 	public static final RegistryObject<Item> DISC_BENCH_ON_A_STICK = REGISTRY.register("disc_bench_on_a_stick", () -> new DiscBenchOnAStickItem());
 	public static final RegistryObject<Item> ESSENCEOR = block(UmcforgeModBlocks.ESSENCEOR, UmcforgeModTabs.TAB_UMC_SPECIAL);
 	public static final RegistryObject<Item> ESSENCOR_ON_A_STICK = REGISTRY.register("essencor_on_a_stick", () -> new EssencorOnAStickItem());
 	public static final RegistryObject<Item> DISCERITE = REGISTRY.register("discerite", () -> new DisceriteItem());
+	public static final RegistryObject<Item> WORKBENCH = block(UmcforgeModBlocks.WORKBENCH, UmcforgeModTabs.TAB_UMC_SPECIAL);
 	public static final RegistryObject<Item> MAHOGANY_WOOD = block(UmcforgeModBlocks.MAHOGANY_WOOD, UmcforgeModTabs.TAB_UMC_BIOMES);
 	public static final RegistryObject<Item> MAHOGANY_LOG = block(UmcforgeModBlocks.MAHOGANY_LOG, UmcforgeModTabs.TAB_UMC_BIOMES);
 	public static final RegistryObject<Item> MAHOGANY_PLANKS = block(UmcforgeModBlocks.MAHOGANY_PLANKS, UmcforgeModTabs.TAB_UMC_BIOMES);
@@ -59,22 +60,21 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> MAHOGANY_FENCE_GATE = block(UmcforgeModBlocks.MAHOGANY_FENCE_GATE, UmcforgeModTabs.TAB_UMC_BIOMES);
 	public static final RegistryObject<Item> MAHOGANY_PRESSURE_PLATE = block(UmcforgeModBlocks.MAHOGANY_PRESSURE_PLATE,
 			UmcforgeModTabs.TAB_UMC_BIOMES);
-	public static final RegistryObject<Item> DISCERITE_ORE = block(UmcforgeModBlocks.DISCERITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> FIRST_FRAGMENT = REGISTRY.register("first_fragment", () -> new FirstFragmentItem());
-	public static final RegistryObject<Item> BLANK_ESSENCE = REGISTRY.register("blank_essence", () -> new BlankEssenceItem());
-	public static final RegistryObject<Item> SPACE_FRAGMENT = REGISTRY.register("space_fragment", () -> new SpaceFragmentItem());
-	public static final RegistryObject<Item> FIRST_ESSENCE = REGISTRY.register("first_essence", () -> new FirstEssenceItem());
-	public static final RegistryObject<Item> BREAD_FRAGMENT = REGISTRY.register("bread_fragment", () -> new BreadFragmentItem());
 	public static final RegistryObject<Item> ANCIENT_HOUSE_IN_A_BOX = block(UmcforgeModBlocks.ANCIENT_HOUSE_IN_A_BOX, UmcforgeModTabs.TAB_UMC_BIOMES);
+	public static final RegistryObject<Item> FIRST_FRAGMENT = REGISTRY.register("first_fragment", () -> new FirstFragmentItem());
+	public static final RegistryObject<Item> SPACE_FRAGMENT = REGISTRY.register("space_fragment", () -> new SpaceFragmentItem());
+	public static final RegistryObject<Item> BREAD_FRAGMENT = REGISTRY.register("bread_fragment", () -> new BreadFragmentItem());
+	public static final RegistryObject<Item> DISCERITE_ORE = block(UmcforgeModBlocks.DISCERITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLANK_ESSENCE = REGISTRY.register("blank_essence", () -> new BlankEssenceItem());
+	public static final RegistryObject<Item> FIRST_ESSENCE = REGISTRY.register("first_essence", () -> new FirstEssenceItem());
 	public static final RegistryObject<Item> SPACEY_ESSENCE = REGISTRY.register("spacey_essence", () -> new SpaceyEssenceItem());
 	public static final RegistryObject<Item> BREAD_ESSENCE = REGISTRY.register("bread_essence", () -> new BreadEssenceItem());
 	public static final RegistryObject<Item> MAHOGANY_PICKAXE = REGISTRY.register("mahogany_pickaxe", () -> new MahoganyPickaxeItem());
-	public static final RegistryObject<Item> UNAVAILABLE_1 = REGISTRY.register("unavailable_1", () -> new Unavailable1Item());
 	public static final RegistryObject<Item> MAHOGANY_AXE = REGISTRY.register("mahogany_axe", () -> new MahoganyAxeItem());
-	public static final RegistryObject<Item> MAHOGANY_SWORD = REGISTRY.register("mahogany_sword", () -> new MahoganySwordItem());
 	public static final RegistryObject<Item> MAHOGANY_SHOVEL = REGISTRY.register("mahogany_shovel", () -> new MahoganyShovelItem());
 	public static final RegistryObject<Item> MAHOGANY_HOE = REGISTRY.register("mahogany_hoe", () -> new MahoganyHoeItem());
-	public static final RegistryObject<Item> WORKBENCH = block(UmcforgeModBlocks.WORKBENCH, UmcforgeModTabs.TAB_UMC_SPECIAL);
+	public static final RegistryObject<Item> MAHOGANY_SWORD = REGISTRY.register("mahogany_sword", () -> new MahoganySwordItem());
+	public static final RegistryObject<Item> UNAVAILABLE_1 = REGISTRY.register("unavailable_1", () -> new Unavailable1Item());
 	public static final RegistryObject<Item> UNAVAILABLE_2 = REGISTRY.register("unavailable_2", () -> new Unavailable2Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

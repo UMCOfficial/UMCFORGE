@@ -43,7 +43,7 @@ public class SpaceyVibeItem extends RecordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		SpaceyVibeLivingEntityIsHitWithItemProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ(), entity);
+		SpaceyVibeLivingEntityIsHitWithItemProcedure.execute(entity);
 		return retval;
 	}
 }

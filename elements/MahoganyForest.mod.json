@@ -61,7 +61,7 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "treesPerChunk": 1,
-    "vanillaTreeType": "Mega spruce trees",
+    "vanillaTreeType": "Mega pine trees",
     "treeType": 1,
     "minHeight": 7,
     "treeStem": {

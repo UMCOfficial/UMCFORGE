@@ -36,6 +36,6 @@ public class Unavailable1Item extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("HOW TF DID YOU GET THIS"));
+		list.add(new TextComponent("HOW DID YOU EVEN GET THIS"));
 	}
 }

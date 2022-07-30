@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
+import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
@@ -41,7 +42,8 @@ public class MahoganyAncientHouseFeature extends Feature<NoneFeatureConfiguratio
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("umcforge:mahogany_forest"));
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD,
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("umcforge:heaven")));
 	private StructureTemplate template = null;
 
 	public MahoganyAncientHouseFeature() {
