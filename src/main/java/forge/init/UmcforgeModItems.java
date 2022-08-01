@@ -23,6 +23,13 @@ import forge.item.MahoganyShovelItem;
 import forge.item.MahoganyPickaxeItem;
 import forge.item.MahoganyHoeItem;
 import forge.item.MahoganyAxeItem;
+import forge.item.HeaveniteSwordItem;
+import forge.item.HeaveniteShovelItem;
+import forge.item.HeavenitePickaxeItem;
+import forge.item.HeaveniteItem;
+import forge.item.HeaveniteHoeItem;
+import forge.item.HeaveniteAxeItem;
+import forge.item.HeaveniteArmorItem;
 import forge.item.FirstHourItem;
 import forge.item.FirstFragmentItem;
 import forge.item.FirstEssenceItem;
@@ -76,6 +83,21 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> MAHOGANY_SWORD = REGISTRY.register("mahogany_sword", () -> new MahoganySwordItem());
 	public static final RegistryObject<Item> UNAVAILABLE_1 = REGISTRY.register("unavailable_1", () -> new Unavailable1Item());
 	public static final RegistryObject<Item> UNAVAILABLE_2 = REGISTRY.register("unavailable_2", () -> new Unavailable2Item());
+	public static final RegistryObject<Item> HEAVENITE = REGISTRY.register("heavenite", () -> new HeaveniteItem());
+	public static final RegistryObject<Item> HEAVENITE_ORE = block(UmcforgeModBlocks.HEAVENITE_ORE, UmcforgeModTabs.TAB_UMC_DISCS);
+	public static final RegistryObject<Item> HEAVENITE_BLOCK = block(UmcforgeModBlocks.HEAVENITE_BLOCK, UmcforgeModTabs.TAB_UMC_DISCS);
+	public static final RegistryObject<Item> HEAVENITE_PICKAXE = REGISTRY.register("heavenite_pickaxe", () -> new HeavenitePickaxeItem());
+	public static final RegistryObject<Item> HEAVENITE_AXE = REGISTRY.register("heavenite_axe", () -> new HeaveniteAxeItem());
+	public static final RegistryObject<Item> HEAVENITE_SWORD = REGISTRY.register("heavenite_sword", () -> new HeaveniteSwordItem());
+	public static final RegistryObject<Item> HEAVENITE_SHOVEL = REGISTRY.register("heavenite_shovel", () -> new HeaveniteShovelItem());
+	public static final RegistryObject<Item> HEAVENITE_HOE = REGISTRY.register("heavenite_hoe", () -> new HeaveniteHoeItem());
+	public static final RegistryObject<Item> HEAVENITE_ARMOR_HELMET = REGISTRY.register("heavenite_armor_helmet",
+			() -> new HeaveniteArmorItem.Helmet());
+	public static final RegistryObject<Item> HEAVENITE_ARMOR_CHESTPLATE = REGISTRY.register("heavenite_armor_chestplate",
+			() -> new HeaveniteArmorItem.Chestplate());
+	public static final RegistryObject<Item> HEAVENITE_ARMOR_LEGGINGS = REGISTRY.register("heavenite_armor_leggings",
+			() -> new HeaveniteArmorItem.Leggings());
+	public static final RegistryObject<Item> HEAVENITE_ARMOR_BOOTS = REGISTRY.register("heavenite_armor_boots", () -> new HeaveniteArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

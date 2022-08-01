@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "umcforge:heavenite"
+    },
+    "1": {
+      "item": "umcforge:heavenite"
+    },
+    "2": {
+      "item": "umcforge:heavenite"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "umcforge:heavenite_axe",
+    "count": 1
+  }
+}

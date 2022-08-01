@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "umcforge:heavenite"
+    },
+    "2": {
+      "item": "umcforge:heavenite"
+    },
+    "3": {
+      "item": "umcforge:heavenite"
+    },
+    "5": {
+      "item": "umcforge:heavenite"
+    }
+  },
+  "result": {
+    "item": "umcforge:heavenite_armor_boots",
+    "count": 1
+  }
+}

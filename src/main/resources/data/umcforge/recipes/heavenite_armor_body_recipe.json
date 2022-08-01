@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "umcforge:heavenite"
+    },
+    "2": {
+      "item": "umcforge:heavenite"
+    },
+    "3": {
+      "item": "umcforge:heavenite"
+    },
+    "4": {
+      "item": "umcforge:heavenite"
+    },
+    "5": {
+      "item": "umcforge:heavenite"
+    },
+    "6": {
+      "item": "umcforge:heavenite"
+    },
+    "7": {
+      "item": "umcforge:heavenite"
+    },
+    "8": {
+      "item": "umcforge:heavenite"
+    }
+  },
+  "result": {
+    "item": "umcforge:heavenite_armor_chestplate",
+    "count": 1
+  }
+}

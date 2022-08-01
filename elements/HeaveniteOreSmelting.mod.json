@@ -1,0 +1,52 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 2.9399999999999995,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": ""
+    },
+    "smeltingInputStack": {
+      "value": "CUSTOM:HeaveniteOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Heavenite"
+    },
+    "name": "heavenite_ore_smelting",
+    "namespace": "mod"
+  }
+}

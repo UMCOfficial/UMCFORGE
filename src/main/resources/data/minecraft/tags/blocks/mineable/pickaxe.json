@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "umcforge:discerite_ore"
+    "umcforge:discerite_ore",
+    "umcforge:heavenite_ore",
+    "umcforge:heavenite_block"
   ]
 }

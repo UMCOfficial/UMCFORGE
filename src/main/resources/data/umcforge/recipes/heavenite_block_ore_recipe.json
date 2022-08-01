@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "umcforge:heavenite_block"
+    }
+  ],
+  "result": {
+    "item": "umcforge:heavenite",
+    "count": 9
+  }
+}

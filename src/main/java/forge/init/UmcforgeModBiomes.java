@@ -35,6 +35,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 import forge.world.biome.MahoganyForestBiome;
+import forge.world.biome.HeavenBIOBiome;
 
 import forge.UmcforgeMod;
 
@@ -44,11 +45,13 @@ import com.mojang.datafixers.util.Pair;
 public class UmcforgeModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, UmcforgeMod.MODID);
 	public static final RegistryObject<Biome> MAHOGANY_FOREST = REGISTRY.register("mahogany_forest", () -> MahoganyForestBiome.createBiome());
+	public static final RegistryObject<Biome> HEAVEN_BIO = REGISTRY.register("heaven_bio", () -> HeavenBIOBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			MahoganyForestBiome.init();
+			HeavenBIOBiome.init();
 		});
 	}
 

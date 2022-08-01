@@ -958,6 +958,204 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "waitnotakemeback"
+    },
+    {
+      "name": "Heavenite",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite"
+    },
+    {
+      "name": "HeaveniteOre",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_ore"
+    },
+    {
+      "name": "HeaveniteBlock",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_block"
+    },
+    {
+      "name": "HeaveniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_ore_block_recipe"
+    },
+    {
+      "name": "HeaveniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_block_ore_recipe"
+    },
+    {
+      "name": "HeaveniteOreSmelting",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_ore_smelting"
+    },
+    {
+      "name": "HeavenitePickaxe",
+      "type": "tool",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_pickaxe"
+    },
+    {
+      "name": "HeaveniteAxe",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_axe"
+    },
+    {
+      "name": "HeaveniteSword",
+      "type": "tool",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_sword"
+    },
+    {
+      "name": "HeaveniteShovel",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_shovel"
+    },
+    {
+      "name": "HeaveniteHoe",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_hoe"
+    },
+    {
+      "name": "HeavenitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_pickaxe_recipe"
+    },
+    {
+      "name": "HeaveniteAxeRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_axe_recipe"
+    },
+    {
+      "name": "HeaveniteSwordRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_sword_recipe"
+    },
+    {
+      "name": "HeaveniteShovelRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_shovel_recipe"
+    },
+    {
+      "name": "HeaveniteHoeRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_hoe_recipe"
+    },
+    {
+      "name": "HeaveniteArmor",
+      "type": "armor",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HeaveniteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_armor_helmet_recipe"
+    },
+    {
+      "name": "HeaveniteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_armor_body_recipe"
+    },
+    {
+      "name": "HeaveniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_armor_leggings_recipe"
+    },
+    {
+      "name": "HeaveniteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_armor_boots_recipe"
+    },
+    {
+      "name": "HeavenBIO",
+      "type": "biome",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_bio"
+    },
+    {
+      "name": "HeaveniteTAG",
+      "type": "tag",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenite_tag"
+    },
+    {
+      "name": "HolyDigz",
+      "type": "achievement",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_digz"
     }
   ],
   "variable_elements": [],
@@ -997,8 +1195,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.umcdiscs.bread_or_dead": "Bread Or Dead",
       "advancements.essence_3.title": "Bread Essence",
+      "item.umcdiscs.bread_or_dead": "Bread Or Dead",
       "advancements.the_beginning.descr": "You have found the Mahogany Forest",
       "biome.umcforge.mahogany_forest": "Mahogany Forest",
       "advancements.umc.descr": "Download the UMC Core mod",
@@ -1006,20 +1204,22 @@
       "block.umccore.disc_bench": "Disc Bench",
       "item.umcforge.blank_essence": "Blank Essence",
       "advancements.what.descr": "Obtain a Disc bench",
-      "subtitles.spaceyvibe": "",
       "block.umccore.essenceor": "Essenceor",
+      "subtitles.spaceyvibe": "",
       "item.umcdiscs.disc_core": "Disc Core",
       "item.umcforge.unavailable_2": "Unavailable 2",
       "block.umcforge.mahogany_pressure_plate": "Mahogany Pressure Plate",
       "block.umccore.mahogany_wood": "Mahogany Wood",
-      "item.umcforge.bread_or_dead.desc": "Its Mr. Shmello, Icquid - Bread Or Dead",
       "item.umcforge.unavailable_1": "Unavailable 1",
+      "item.umcforge.bread_or_dead.desc": "Its Mr. Shmello, Icquid - Bread Or Dead",
       "block.umccore.mahogany_planks": "Mahogany Planks",
-      "block.umccore.mahogany_button": "Mahogany Button",
       "block.umcforge.mahogany_wood": "Mahogany Wood",
+      "block.umccore.mahogany_button": "Mahogany Button",
+      "item.umcforge.heavenite_hoe": "Heavenite Hoe",
       "advancements.its_free_real_estate.title": "Its Free Real Estate",
       "advancements.fragments.title": "Fragments",
       "block.umcforge.mahogany_planks": "Mahogany Planks",
+      "item.umcforge.heavenite_shovel": "Heavenite Shovel",
       "advancements.essence_2.descr": "Obtain a Spacey Essence",
       "advancements.fragment_2.descr": "Obtain a Spacey Fragment",
       "item.umccore.spacey_vibe": "Spacey Vibe",
@@ -1028,12 +1228,15 @@
       "item.umcforge.disc_core": "UMC Core",
       "item.umcforge.spacey_essence": "Spacey Essence",
       "advancements.fragment_1.title": "FirstFragment",
+      "biome.umcforge.heaven_bio": "Heaven",
       "itemGroup.tabumc_essences": "UMC Essences",
       "item.umcdiscs.spacey_vibe.desc": "Its Mr. Shmello - Spacey Vibe",
       "block.umcforge.ancient_house_in_a_box": "Ancient House In A Box",
+      "advancements.holy_digz.title": "Holy Digz",
       "item.umccore.blank_essence": "Blank Essence",
       "block.umcforge.disc_bench": "Disc Bench",
       "item.umccore.essencor_on_a_stick": "Essencor On A Stick",
+      "item.umcforge.heavenite_armor_helmet": "Heavenite Helmet",
       "subtitles.breadordead": "",
       "item.umccore.unavailable_1": "Unavailable 1",
       "block.umccore.mahogany_pressure_plate": "Mahogany Pressure Plate",
@@ -1045,14 +1248,17 @@
       "item.umcforge.spacey_vibe.desc": "Its Mr. Shmello - Spacey Vibe",
       "advancements.getting_started.title": "Getting Started",
       "item.umccore.first_hour.desc": "Its Mr. Shmello - FirstHour",
+      "item.umcforge.heavenite_armor_chestplate": "Heavenite Chestplate",
       "advancements.fragments.descr": "Unlock the fragments",
       "item.umcforge.discerite": "Discerite",
+      "item.umcforge.heavenite": "Heavenite",
       "item.umccore.bread_or_dead.desc": "Its Mr. Shmello, Icquid - Bread Or Dead",
       "advancements.fragment_1.descr": "Obtain a FirstFragment",
       "block.umccore.discerite_ore": "Discerite Ore",
       "item.umcforge.space_fragment": "Space Fragment",
       "item.umcforge.first_fragment": "First Fragment",
       "advancements.its_free_real_estate.descr": "Obtain a House In A Box",
+      "item.umcforge.heavenite_axe": "Heavenite Axe",
       "item.umccore.first_hour": "FirstHour",
       "item.umcforge.first_hour": "FirstHour",
       "item.umccore.spacey_vibe.desc": "Its Mr. Shmello - Spacey Vibe",
@@ -1082,6 +1288,9 @@
       "item.umcforge.mahogany_shovel": "Mahogany Shovel",
       "item.umcforge.first_essence": "FirstEssence",
       "item.umcforge.essencor_on_a_stick": "Essencor On A Stick",
+      "item.umcforge.heavenite_armor_leggings": "Heavenite Leggings",
+      "item.umcforge.heavenite_armor_boots": "Heavenite Boots",
+      "item.umcforge.heavenite_pickaxe": "Heavenite Pickaxe",
       "biome.umccore.umc_forest": "UMC Forest",
       "advancements.umc.title": "Welcome to UMC",
       "itemGroup.tabumc_special": "UMC Special",
@@ -1093,10 +1302,13 @@
       "advancements.fragment_3.title": "BreadFragment",
       "item.umcforge.spacey_vibe": "Spacey Vibe",
       "advancements.essence_away.title": "Essence Away",
+      "item.umcforge.heavenite_sword": "Heavenite Sword",
+      "block.umcforge.heavenite_ore": "Heavenite Ore",
       "advancements.essence_away.descr": "Get an Essencor",
       "itemGroup.tabumc_fragments": "UMC Fragments",
       "advancements.welcome_to_heaven.descr": "Unlock heaven",
       "advancements.fragment_3.descr": "Obtain a Bread Fragment",
+      "advancements.holy_digz.descr": "Obtain a Heveanite",
       "block.umcforge.mahogany_leaves": "Mahogany Leaves",
       "advancements.essence_1.title": "FirstEssence",
       "subtitles.firsthour": "",
@@ -1104,6 +1316,7 @@
       "advancements.getting_started.descr": "Craft a Workbench",
       "block.umccore.mahogany_fence": "Mahogany Fence",
       "item.umcforge.first_hour.desc": "Its Mr. Shmello - FirstHour",
+      "block.umcforge.heavenite_block": "Block of Heavenite",
       "itemGroup.tabumc_biomes": "UMC Biomes",
       "advancements.fragment_2.title": "Spacey Fragment",
       "item.umcforge.mahogany_hoe": "Mahogany Hoe",
@@ -1135,7 +1348,9 @@
       "jei"
     ],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "just_enough_items"
+    ],
     "currentGenerator": "forge-1.18.2",
     "credits": "Its Mr . Shmello",
     "modElementsPackage": "forge",

@@ -22,6 +22,7 @@ import java.util.Set;
 import java.util.List;
 import java.util.ArrayList;
 
+import forge.world.features.ores.HeaveniteOreFeature;
 import forge.world.features.ores.DisceriteOreFeature;
 import forge.world.features.MahoganyAncientHouseNetherFeature;
 import forge.world.features.MahoganyAncientHouseFeature;
@@ -40,6 +41,8 @@ public class UmcforgeModFeatures {
 	public static final RegistryObject<Feature<?>> MAHOGANY_ANCIENT_HOUSE_NETHER = register("mahogany_ancient_house_nether",
 			MahoganyAncientHouseNetherFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					MahoganyAncientHouseNetherFeature.GENERATE_BIOMES, MahoganyAncientHouseNetherFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HEAVENITE_ORE = register("heavenite_ore", HeaveniteOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, HeaveniteOreFeature.GENERATE_BIOMES, HeaveniteOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

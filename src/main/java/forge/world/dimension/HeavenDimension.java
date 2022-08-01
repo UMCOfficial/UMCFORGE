@@ -30,6 +30,8 @@ public class HeavenDimension {
 			replaceableBlocks.add(Blocks.DEEPSLATE);
 			replaceableBlocks.add(Blocks.GRASS_BLOCK);
 			replaceableBlocks.add(Blocks.DIRT);
+			replaceableBlocks.add(Blocks.GRASS_BLOCK);
+			replaceableBlocks.add(Blocks.DIRT);
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)
 						.addAll(replaceableBlocks).build();

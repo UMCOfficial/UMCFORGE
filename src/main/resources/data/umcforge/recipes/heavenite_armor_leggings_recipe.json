@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "umcforge:heavenite"
+    },
+    "1": {
+      "item": "umcforge:heavenite"
+    },
+    "2": {
+      "item": "umcforge:heavenite"
+    },
+    "3": {
+      "item": "umcforge:heavenite"
+    },
+    "5": {
+      "item": "umcforge:heavenite"
+    },
+    "6": {
+      "item": "umcforge:heavenite"
+    },
+    "8": {
+      "item": "umcforge:heavenite"
+    }
+  },
+  "result": {
+    "item": "umcforge:heavenite_armor_leggings",
+    "count": 1
+  }
+}

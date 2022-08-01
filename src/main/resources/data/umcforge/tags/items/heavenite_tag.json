@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "umcforge:heavenite_shovel",
+    "umcforge:heavenite_armor_helmet",
+    "umcforge:heavenite_pickaxe",
+    "umcforge:heavenite_sword",
+    "umcforge:heavenite",
+    "umcforge:heavenite_ore",
+    "umcforge:heavenite_armor_boots",
+    "umcforge:heavenite_armor_leggings",
+    "umcforge:heavenite_armor_chestplate",
+    "umcforge:heavenite_block",
+    "umcforge:heavenite_axe",
+    "umcforge:heavenite_hoe"
+  ]
+}

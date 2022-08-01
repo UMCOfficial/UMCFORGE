@@ -1,0 +1,50 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Heavenite"
+      },
+      {
+        "value": "CUSTOM:HeaveniteOre"
+      },
+      {
+        "value": "CUSTOM:HeaveniteBlock"
+      },
+      {
+        "value": "CUSTOM:HeavenitePickaxe"
+      },
+      {
+        "value": "CUSTOM:HeaveniteAxe"
+      },
+      {
+        "value": "CUSTOM:HeaveniteSword"
+      },
+      {
+        "value": "CUSTOM:HeaveniteShovel"
+      },
+      {
+        "value": "CUSTOM:HeaveniteHoe"
+      },
+      {
+        "value": "CUSTOM:HeaveniteArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:HeaveniteArmor.body"
+      },
+      {
+        "value": "CUSTOM:HeaveniteArmor.legs"
+      },
+      {
+        "value": "CUSTOM:HeaveniteArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "heavenite_tag",
+    "namespace": "mod"
+  }
+}

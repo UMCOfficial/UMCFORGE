@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "umcforge:textures/umc.png",
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "umcforge:disc_core"
     },

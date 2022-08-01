@@ -25,6 +25,8 @@ import forge.block.MahoganyLeavesBlock;
 import forge.block.MahoganyFenceGateBlock;
 import forge.block.MahoganyFenceBlock;
 import forge.block.MahoganyButtonBlock;
+import forge.block.HeaveniteOreBlock;
+import forge.block.HeaveniteBlockBlock;
 import forge.block.EssenceorBlock;
 import forge.block.DisceriteOreBlock;
 import forge.block.DiscBenchBlock;
@@ -51,6 +53,8 @@ public class UmcforgeModBlocks {
 	public static final RegistryObject<Block> ANCIENT_HOUSE_IN_A_BOX = REGISTRY.register("ancient_house_in_a_box",
 			() -> new AncientHouseInABoxBlock());
 	public static final RegistryObject<Block> DISCERITE_ORE = REGISTRY.register("discerite_ore", () -> new DisceriteOreBlock());
+	public static final RegistryObject<Block> HEAVENITE_ORE = REGISTRY.register("heavenite_ore", () -> new HeaveniteOreBlock());
+	public static final RegistryObject<Block> HEAVENITE_BLOCK = REGISTRY.register("heavenite_block", () -> new HeaveniteBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

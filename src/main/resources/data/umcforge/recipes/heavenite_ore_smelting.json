@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.9399999999999995,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "umcforge:heavenite_ore"
+  },
+  "result": "umcforge:heavenite"
+}
