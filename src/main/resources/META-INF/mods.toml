@@ -24,12 +24,6 @@ UMC Core mod
 
 
 [[dependencies.umcforge]]
-    modId="just_enough_items"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.umcforge]]
     modId="jei"
     mandatory=false
     versionRange="[0,)"
