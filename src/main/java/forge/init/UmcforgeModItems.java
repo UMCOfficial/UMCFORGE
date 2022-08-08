@@ -72,25 +72,22 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> SPACE_FRAGMENT = REGISTRY.register("space_fragment", () -> new SpaceFragmentItem());
 	public static final RegistryObject<Item> BREAD_FRAGMENT = REGISTRY.register("bread_fragment", () -> new BreadFragmentItem());
 	public static final RegistryObject<Item> DISCERITE_ORE = block(UmcforgeModBlocks.DISCERITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> BLANK_ESSENCE = REGISTRY.register("blank_essence", () -> new BlankEssenceItem());
 	public static final RegistryObject<Item> HEAVENITE_ORE = block(UmcforgeModBlocks.HEAVENITE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> FIRST_ESSENCE = REGISTRY.register("first_essence", () -> new FirstEssenceItem());
 	public static final RegistryObject<Item> HEAVENITE_BLOCK = block(UmcforgeModBlocks.HEAVENITE_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLANK_ESSENCE = REGISTRY.register("blank_essence", () -> new BlankEssenceItem());
+	public static final RegistryObject<Item> FIRST_ESSENCE = REGISTRY.register("first_essence", () -> new FirstEssenceItem());
 	public static final RegistryObject<Item> SPACEY_ESSENCE = REGISTRY.register("spacey_essence", () -> new SpaceyEssenceItem());
 	public static final RegistryObject<Item> BREAD_ESSENCE = REGISTRY.register("bread_essence", () -> new BreadEssenceItem());
 	public static final RegistryObject<Item> MAHOGANY_PICKAXE = REGISTRY.register("mahogany_pickaxe", () -> new MahoganyPickaxeItem());
 	public static final RegistryObject<Item> MAHOGANY_AXE = REGISTRY.register("mahogany_axe", () -> new MahoganyAxeItem());
 	public static final RegistryObject<Item> MAHOGANY_SHOVEL = REGISTRY.register("mahogany_shovel", () -> new MahoganyShovelItem());
 	public static final RegistryObject<Item> MAHOGANY_HOE = REGISTRY.register("mahogany_hoe", () -> new MahoganyHoeItem());
-	public static final RegistryObject<Item> MAHOGANY_SWORD = REGISTRY.register("mahogany_sword", () -> new MahoganySwordItem());
-	public static final RegistryObject<Item> UNAVAILABLE_1 = REGISTRY.register("unavailable_1", () -> new Unavailable1Item());
-	public static final RegistryObject<Item> UNAVAILABLE_2 = REGISTRY.register("unavailable_2", () -> new Unavailable2Item());
-	public static final RegistryObject<Item> HEAVENITE = REGISTRY.register("heavenite", () -> new HeaveniteItem());
 	public static final RegistryObject<Item> HEAVENITE_PICKAXE = REGISTRY.register("heavenite_pickaxe", () -> new HeavenitePickaxeItem());
 	public static final RegistryObject<Item> HEAVENITE_AXE = REGISTRY.register("heavenite_axe", () -> new HeaveniteAxeItem());
-	public static final RegistryObject<Item> HEAVENITE_SWORD = REGISTRY.register("heavenite_sword", () -> new HeaveniteSwordItem());
 	public static final RegistryObject<Item> HEAVENITE_SHOVEL = REGISTRY.register("heavenite_shovel", () -> new HeaveniteShovelItem());
 	public static final RegistryObject<Item> HEAVENITE_HOE = REGISTRY.register("heavenite_hoe", () -> new HeaveniteHoeItem());
+	public static final RegistryObject<Item> MAHOGANY_SWORD = REGISTRY.register("mahogany_sword", () -> new MahoganySwordItem());
+	public static final RegistryObject<Item> HEAVENITE_SWORD = REGISTRY.register("heavenite_sword", () -> new HeaveniteSwordItem());
 	public static final RegistryObject<Item> HEAVENITE_ARMOR_HELMET = REGISTRY.register("heavenite_armor_helmet",
 			() -> new HeaveniteArmorItem.Helmet());
 	public static final RegistryObject<Item> HEAVENITE_ARMOR_CHESTPLATE = REGISTRY.register("heavenite_armor_chestplate",
@@ -98,6 +95,9 @@ public class UmcforgeModItems {
 	public static final RegistryObject<Item> HEAVENITE_ARMOR_LEGGINGS = REGISTRY.register("heavenite_armor_leggings",
 			() -> new HeaveniteArmorItem.Leggings());
 	public static final RegistryObject<Item> HEAVENITE_ARMOR_BOOTS = REGISTRY.register("heavenite_armor_boots", () -> new HeaveniteArmorItem.Boots());
+	public static final RegistryObject<Item> UNAVAILABLE_2 = REGISTRY.register("unavailable_2", () -> new Unavailable2Item());
+	public static final RegistryObject<Item> HEAVENITE = REGISTRY.register("heavenite", () -> new HeaveniteItem());
+	public static final RegistryObject<Item> UNAVAILABLE_1 = REGISTRY.register("unavailable_1", () -> new Unavailable1Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

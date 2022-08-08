@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "umcforge:bread_fragment"
     },
@@ -32,5 +31,6 @@
         ]
       }
     }
-  }
+  },
+  "parent": "umcforge:fragments"
 }

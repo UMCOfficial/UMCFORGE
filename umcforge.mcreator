@@ -1164,6 +1164,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ancient_house_rec"
+    },
+    {
+      "name": "BlankEssenceRec",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_essence_rec"
     }
   ],
   "variable_elements": [],
@@ -1343,7 +1351,7 @@
   "workspaceSettings": {
     "modid": "umcforge",
     "modName": "UMC Core [FORGE]",
-    "version": "1.0.0",
+    "version": "1.0.9",
     "description": "UMC Core mod",
     "author": "UMC Network",
     "websiteURL": "https://www.theumcnetwork.com",
