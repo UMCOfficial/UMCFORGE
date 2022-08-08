@@ -35,14 +35,14 @@ public class UmcforgeModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> DISCERITE_ORE = register("discerite_ore", DisceriteOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, DisceriteOreFeature.GENERATE_BIOMES, DisceriteOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HEAVENITE_ORE = register("heavenite_ore", HeaveniteOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, HeaveniteOreFeature.GENERATE_BIOMES, HeaveniteOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> MAHOGANY_ANCIENT_HOUSE = register("mahogany_ancient_house", MahoganyAncientHouseFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, MahoganyAncientHouseFeature.GENERATE_BIOMES,
 					MahoganyAncientHouseFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> MAHOGANY_ANCIENT_HOUSE_NETHER = register("mahogany_ancient_house_nether",
 			MahoganyAncientHouseNetherFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
 					MahoganyAncientHouseNetherFeature.GENERATE_BIOMES, MahoganyAncientHouseNetherFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> HEAVENITE_ORE = register("heavenite_ore", HeaveniteOreFeature::feature, new FeatureRegistration(
-			GenerationStep.Decoration.UNDERGROUND_ORES, HeaveniteOreFeature.GENERATE_BIOMES, HeaveniteOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
