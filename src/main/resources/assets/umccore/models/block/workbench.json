@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "umccore:blocks/wb1",
+    "up": "umccore:blocks/wb4",
+    "north": "umccore:blocks/wb2",
+    "east": "umccore:blocks/wb3",
+    "south": "umccore:blocks/wb2",
+    "west": "umccore:blocks/wb3",
+    "particle": "umccore:blocks/wb1"
+  }
+}

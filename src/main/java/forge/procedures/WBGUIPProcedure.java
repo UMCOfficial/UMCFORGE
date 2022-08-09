@@ -9,8 +9,8 @@ import net.minecraft.server.level.ServerPlayer;
 import java.util.function.Supplier;
 import java.util.Map;
 
-import forge.init.UmcforgeModItems;
-import forge.init.UmcforgeModBlocks;
+import forge.init.UmccoreModItems;
+import forge.init.UmccoreModBlocks;
 
 public class WBGUIPProcedure {
 	public static void execute(Entity entity) {
@@ -18,30 +18,30 @@ public class WBGUIPProcedure {
 			return;
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).getItem() == UmcforgeModBlocks.MAHOGANY_PLANKS.get().asItem()) {
+				: ItemStack.EMPTY).getItem() == UmccoreModBlocks.MAHOGANY_PLANKS.get().asItem()) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem() == Blocks.IRON_BLOCK.asItem()) {
 				if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
-						.getItem() == UmcforgeModBlocks.MAHOGANY_PLANKS.get().asItem()) {
+						.getItem() == UmccoreModBlocks.MAHOGANY_PLANKS.get().asItem()) {
 					if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY)
 							.getItem() == Blocks.REDSTONE_BLOCK.asItem()) {
 						if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 								&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(4)).getItem() : ItemStack.EMPTY)
-								.getItem() == UmcforgeModItems.DISCERITE.get()) {
+								.getItem() == UmccoreModItems.DISCERITE.get()) {
 							if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 									&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(5)).getItem() : ItemStack.EMPTY)
 									.getItem() == Blocks.MAGMA_BLOCK.asItem()) {
 								if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 										&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
-										.getItem() == UmcforgeModBlocks.MAHOGANY_PLANKS.get().asItem()) {
+										.getItem() == UmccoreModBlocks.MAHOGANY_PLANKS.get().asItem()) {
 									if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 											&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
 											.getItem() == Blocks.GLOWSTONE.asItem()) {
 										if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 												&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
-												.getItem() == UmcforgeModBlocks.MAHOGANY_PLANKS.get().asItem()) {
+												.getItem() == UmccoreModBlocks.MAHOGANY_PLANKS.get().asItem()) {
 											if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 													&& _current.get() instanceof Map _slots) {
 												((Slot) _slots.get(0)).remove(1);
@@ -89,7 +89,7 @@ public class WBGUIPProcedure {
 											}
 											if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 													&& _current.get() instanceof Map _slots) {
-												ItemStack _setstack = new ItemStack(UmcforgeModBlocks.ESSENCEOR.get());
+												ItemStack _setstack = new ItemStack(UmccoreModBlocks.ESSENCEOR.get());
 												_setstack.setCount(1);
 												((Slot) _slots.get(9)).set(_setstack);
 												_player.containerMenu.broadcastChanges();
@@ -105,13 +105,13 @@ public class WBGUIPProcedure {
 		}
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).getItem() == UmcforgeModItems.DISCERITE.get()) {
+				: ItemStack.EMPTY).getItem() == UmccoreModItems.DISCERITE.get()) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
-					.getItem() == UmcforgeModBlocks.MAHOGANY_PLANKS.get().asItem()) {
+					.getItem() == UmccoreModBlocks.MAHOGANY_PLANKS.get().asItem()) {
 				if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
-						.getItem() == UmcforgeModItems.DISCERITE.get()) {
+						.getItem() == UmccoreModItems.DISCERITE.get()) {
 					if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 							&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(3)).getItem() : ItemStack.EMPTY)
 							.getItem() == Blocks.DIAMOND_BLOCK.asItem()) {
@@ -123,13 +123,13 @@ public class WBGUIPProcedure {
 									.getItem() == Blocks.DIAMOND_BLOCK.asItem()) {
 								if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 										&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(6)).getItem() : ItemStack.EMPTY)
-										.getItem() == UmcforgeModItems.DISCERITE.get()) {
+										.getItem() == UmccoreModItems.DISCERITE.get()) {
 									if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 											&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(7)).getItem() : ItemStack.EMPTY)
-											.getItem() == UmcforgeModBlocks.MAHOGANY_PLANKS.get().asItem()) {
+											.getItem() == UmccoreModBlocks.MAHOGANY_PLANKS.get().asItem()) {
 										if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 												&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(8)).getItem() : ItemStack.EMPTY)
-												.getItem() == UmcforgeModItems.DISCERITE.get()) {
+												.getItem() == UmccoreModItems.DISCERITE.get()) {
 											if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 													&& _current.get() instanceof Map _slots) {
 												((Slot) _slots.get(0)).remove(1);
@@ -177,7 +177,7 @@ public class WBGUIPProcedure {
 											}
 											if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 													&& _current.get() instanceof Map _slots) {
-												ItemStack _setstack = new ItemStack(UmcforgeModBlocks.DISC_BENCH.get());
+												ItemStack _setstack = new ItemStack(UmccoreModBlocks.DISC_BENCH.get());
 												_setstack.setCount(1);
 												((Slot) _slots.get(9)).set(_setstack);
 												_player.containerMenu.broadcastChanges();

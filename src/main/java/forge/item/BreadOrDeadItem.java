@@ -16,13 +16,13 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-import forge.init.UmcforgeModTabs;
-import forge.init.UmcforgeModSounds;
+import forge.init.UmccoreModTabs;
+import forge.init.UmccoreModSounds;
 
 public class BreadOrDeadItem extends RecordItem {
 	public BreadOrDeadItem() {
-		super(0, UmcforgeModSounds.REGISTRY.get(new ResourceLocation("umcforge:breadordead")),
-				new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_DISCS).stacksTo(1).rarity(Rarity.RARE));
+		super(0, UmccoreModSounds.REGISTRY.get(new ResourceLocation("umccore:breadordead")),
+				new Item.Properties().tab(UmccoreModTabs.TAB_UMC_DISCS).stacksTo(1).rarity(Rarity.RARE));
 	}
 
 	@Override

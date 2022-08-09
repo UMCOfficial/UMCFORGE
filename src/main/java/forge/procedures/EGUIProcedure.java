@@ -10,7 +10,7 @@ import net.minecraft.server.level.ServerPlayer;
 import java.util.function.Supplier;
 import java.util.Map;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public class EGUIProcedure {
 	public static void execute(Entity entity) {
@@ -18,10 +18,10 @@ public class EGUIProcedure {
 			return;
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).getItem() == UmcforgeModItems.DISCERITE.get()) {
+				: ItemStack.EMPTY).getItem() == UmccoreModItems.DISCERITE.get()) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
-					.getItem() == UmcforgeModItems.BLANK_ESSENCE.get()) {
+					.getItem() == UmccoreModItems.BLANK_ESSENCE.get()) {
 				if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY).getItem() == Items.DRAGON_BREATH) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
@@ -41,7 +41,7 @@ public class EGUIProcedure {
 					}
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(UmcforgeModItems.FIRST_ESSENCE.get());
+						ItemStack _setstack = new ItemStack(UmccoreModItems.FIRST_ESSENCE.get());
 						_setstack.setCount(1);
 						((Slot) _slots.get(3)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -51,10 +51,10 @@ public class EGUIProcedure {
 		}
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).getItem() == UmcforgeModItems.DISCERITE.get()) {
+				: ItemStack.EMPTY).getItem() == UmccoreModItems.DISCERITE.get()) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
-					.getItem() == UmcforgeModItems.BLANK_ESSENCE.get()) {
+					.getItem() == UmccoreModItems.BLANK_ESSENCE.get()) {
 				if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
 						.getItem() == Items.MUSIC_DISC_OTHERSIDE) {
@@ -75,7 +75,7 @@ public class EGUIProcedure {
 					}
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(UmcforgeModItems.SPACEY_ESSENCE.get());
+						ItemStack _setstack = new ItemStack(UmccoreModItems.SPACEY_ESSENCE.get());
 						_setstack.setCount(1);
 						((Slot) _slots.get(0)).set(_setstack);
 						_player.containerMenu.broadcastChanges();
@@ -85,10 +85,10 @@ public class EGUIProcedure {
 		}
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).getItem() == UmcforgeModItems.DISCERITE.get()) {
+				: ItemStack.EMPTY).getItem() == UmccoreModItems.DISCERITE.get()) {
 			if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 					&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY)
-					.getItem() == UmcforgeModItems.BLANK_ESSENCE.get()) {
+					.getItem() == UmccoreModItems.BLANK_ESSENCE.get()) {
 				if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr
 						&& _splr.get() instanceof Map _slt ? ((Slot) _slt.get(2)).getItem() : ItemStack.EMPTY)
 						.getItem() == Blocks.NETHERITE_BLOCK.asItem()) {
@@ -109,7 +109,7 @@ public class EGUIProcedure {
 					}
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 							&& _current.get() instanceof Map _slots) {
-						ItemStack _setstack = new ItemStack(UmcforgeModItems.BREAD_ESSENCE.get());
+						ItemStack _setstack = new ItemStack(UmccoreModItems.BREAD_ESSENCE.get());
 						_setstack.setCount(1);
 						((Slot) _slots.get(0)).set(_setstack);
 						_player.containerMenu.broadcastChanges();

@@ -9,11 +9,11 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import forge.init.UmcforgeModTabs;
+import forge.init.UmccoreModTabs;
 
 public class DisceriteItem extends Item {
 	public DisceriteItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_SPECIAL).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(UmccoreModTabs.TAB_UMC_SPECIAL).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

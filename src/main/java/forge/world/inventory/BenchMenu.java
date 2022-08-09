@@ -22,7 +22,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-import forge.init.UmcforgeModMenus;
+import forge.init.UmccoreModMenus;
 
 public class BenchMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
@@ -34,7 +34,7 @@ public class BenchMenu extends AbstractContainerMenu implements Supplier<Map<Int
 	private boolean bound = false;
 
 	public BenchMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(UmcforgeModMenus.BENCH, id);
+		super(UmccoreModMenus.BENCH, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
 		this.internal = new ItemStackHandler(2);

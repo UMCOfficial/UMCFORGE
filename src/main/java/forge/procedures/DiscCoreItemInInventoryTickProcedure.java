@@ -7,7 +7,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public class DiscCoreItemInInventoryTickProcedure {
 	public static void execute(Entity entity) {
@@ -17,7 +17,7 @@ public class DiscCoreItemInInventoryTickProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 1, 4, (false), (false)));
 		if (entity instanceof Player _player) {
 			_player.getAbilities().mayfly = ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-					.getItem() == UmcforgeModItems.DISC_CORE.get());
+					.getItem() == UmccoreModItems.DISC_CORE.get());
 			_player.onUpdateAbilities();
 		}
 	}

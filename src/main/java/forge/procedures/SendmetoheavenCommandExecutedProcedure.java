@@ -49,7 +49,7 @@ public class SendmetoheavenCommandExecutedProcedure {
 
 			private void run() {
 				if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
-					ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("umcforge:heaven"));
+					ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("umccore:heaven"));
 					if (_player.level.dimension() == destinationType)
 						return;
 					ServerLevel nextLevel = _player.server.getLevel(destinationType);

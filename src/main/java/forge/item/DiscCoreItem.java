@@ -16,11 +16,11 @@ import java.util.List;
 
 import forge.procedures.DiscCoreItemInInventoryTickProcedure;
 
-import forge.init.UmcforgeModTabs;
+import forge.init.UmccoreModTabs;
 
 public class DiscCoreItem extends Item {
 	public DiscCoreItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_SPECIAL).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(UmccoreModTabs.TAB_UMC_SPECIAL).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

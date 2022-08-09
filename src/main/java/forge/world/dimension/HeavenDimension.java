@@ -54,7 +54,7 @@ public class HeavenDimension {
 					return false;
 				}
 			};
-			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("umcforge:heaven"), customEffect));
+			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("umccore:heaven"), customEffect));
 		}
 	}
 }

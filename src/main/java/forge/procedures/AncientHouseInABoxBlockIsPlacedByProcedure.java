@@ -18,7 +18,7 @@ public class AncientHouseInABoxBlockIsPlacedByProcedure {
 			return;
 		world.destroyBlock(new BlockPos(x, y, z), false);
 		if (world instanceof ServerLevel _serverworld) {
-			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("umcforge", "mahoganyancienthouse"));
+			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("umccore", "mahoganyancienthouse"));
 			if (template != null) {
 				template.placeInWorld(_serverworld, new BlockPos(x, y, z), new BlockPos(x, y, z),
 						new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random,

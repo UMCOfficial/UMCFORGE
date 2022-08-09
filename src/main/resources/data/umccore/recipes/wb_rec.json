@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "umccore:mahogany_planks"
+    },
+    "1": {
+      "item": "umccore:discerite"
+    },
+    "2": {
+      "item": "umccore:mahogany_planks"
+    },
+    "3": {
+      "item": "umccore:discerite"
+    },
+    "4": {
+      "item": "umccore:mahogany_planks"
+    },
+    "5": {
+      "item": "umccore:discerite"
+    },
+    "6": {
+      "item": "umccore:mahogany_planks"
+    },
+    "7": {
+      "item": "umccore:discerite"
+    },
+    "8": {
+      "item": "umccore:mahogany_planks"
+    }
+  },
+  "result": {
+    "item": "umccore:workbench",
+    "count": 1
+  }
+}

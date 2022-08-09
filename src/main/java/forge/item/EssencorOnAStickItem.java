@@ -32,11 +32,11 @@ import forge.world.inventory.EssenceGUIMenu;
 
 import forge.item.inventory.EssencorOnAStickInventoryCapability;
 
-import forge.init.UmcforgeModTabs;
+import forge.init.UmccoreModTabs;
 
 public class EssencorOnAStickItem extends Item {
 	public EssencorOnAStickItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_SPECIAL).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(UmccoreModTabs.TAB_UMC_SPECIAL).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "umcforge:workbench",
-    "umcforge:mahogany_wood",
-    "umcforge:mahogany_log",
-    "umcforge:mahogany_planks"
+    "umccore:workbench",
+    "umccore:mahogany_wood",
+    "umccore:mahogany_log",
+    "umccore:mahogany_planks"
   ]
 }

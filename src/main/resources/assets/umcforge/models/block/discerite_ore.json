@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "umcforge:blocks/discerite_ore",
-    "particle": "umcforge:blocks/discerite_ore"
-  }
-}

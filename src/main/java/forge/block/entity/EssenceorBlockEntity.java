@@ -30,14 +30,14 @@ import io.netty.buffer.Unpooled;
 
 import forge.world.inventory.EssenceGUIMenu;
 
-import forge.init.UmcforgeModBlockEntities;
+import forge.init.UmccoreModBlockEntities;
 
 public class EssenceorBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public EssenceorBlockEntity(BlockPos position, BlockState state) {
-		super(UmcforgeModBlockEntities.ESSENCEOR.get(), position, state);
+		super(UmccoreModBlockEntities.ESSENCEOR.get(), position, state);
 	}
 
 	@Override

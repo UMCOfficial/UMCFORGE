@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public class HeaveniteAxeItem extends AxeItem {
 	public HeaveniteAxeItem() {
@@ -34,7 +34,7 @@ public class HeaveniteAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(UmcforgeModItems.HEAVENITE.get()));
+				return Ingredient.of(new ItemStack(UmccoreModItems.HEAVENITE.get()));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}

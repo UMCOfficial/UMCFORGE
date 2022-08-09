@@ -16,7 +16,7 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public class HeaveniteOreBlock extends Block {
 	public HeaveniteOreBlock() {
@@ -41,6 +41,6 @@ public class HeaveniteOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(UmcforgeModItems.HEAVENITE.get()));
+		return Collections.singletonList(new ItemStack(UmccoreModItems.HEAVENITE.get()));
 	}
 }

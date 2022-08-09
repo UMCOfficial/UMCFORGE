@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "umccore:first_fragment",
+    "umccore:space_fragment",
+    "umccore:bread_fragment"
+  ]
+}

@@ -35,11 +35,11 @@ import forge.world.inventory.BenchMenu;
 
 import forge.item.inventory.DiscBenchOnAStickInventoryCapability;
 
-import forge.init.UmcforgeModTabs;
+import forge.init.UmccoreModTabs;
 
 public class DiscBenchOnAStickItem extends Item {
 	public DiscBenchOnAStickItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_SPECIAL).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(UmccoreModTabs.TAB_UMC_SPECIAL).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
 
 	@Override

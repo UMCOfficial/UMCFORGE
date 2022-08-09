@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "umccore:blocks/mahogany_planks"
+  }
+}

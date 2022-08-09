@@ -14,7 +14,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public abstract class HeaveniteArmorItem extends ArmorItem {
 	public HeaveniteArmorItem(EquipmentSlot slot, Item.Properties properties) {
@@ -41,7 +41,7 @@ public abstract class HeaveniteArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(UmcforgeModItems.HEAVENITE.get()));
+				return Ingredient.of(new ItemStack(UmccoreModItems.HEAVENITE.get()));
 			}
 
 			@Override
@@ -68,7 +68,7 @@ public abstract class HeaveniteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "umcforge:textures/models/armor/heavenite_layer_1.png";
+			return "umccore:textures/models/armor/heavenite_layer_1.png";
 		}
 	}
 
@@ -79,7 +79,7 @@ public abstract class HeaveniteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "umcforge:textures/models/armor/heavenite_layer_1.png";
+			return "umccore:textures/models/armor/heavenite_layer_1.png";
 		}
 	}
 
@@ -90,7 +90,7 @@ public abstract class HeaveniteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "umcforge:textures/models/armor/heavenite_layer_2.png";
+			return "umccore:textures/models/armor/heavenite_layer_2.png";
 		}
 	}
 
@@ -101,7 +101,7 @@ public abstract class HeaveniteArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "umcforge:textures/models/armor/heavenite_layer_1.png";
+			return "umccore:textures/models/armor/heavenite_layer_1.png";
 		}
 	}
 }

@@ -21,11 +21,11 @@ import java.util.List;
 import forge.procedures.FragmentscraftedsmeltedProcedure;
 import forge.procedures.FragmentsInventoryProcedure;
 
-import forge.init.UmcforgeModTabs;
+import forge.init.UmccoreModTabs;
 
 public class SpaceFragmentItem extends Item {
 	public SpaceFragmentItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_FRAGMENTS).stacksTo(1).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(UmccoreModTabs.TAB_UMC_FRAGMENTS).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override

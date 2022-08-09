@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "umccore:unavailable_1"
+    },
+    "title": {
+      "translate": "advancements.the_beginning.title"
+    },
+    "description": {
+      "translate": "advancements.the_beginning.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_beginning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "umccore:mahogany_forest"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 28,
+    "recipes": [
+      "umccore:mahogany_wood_recipe",
+      "umccore:mahogany_planks_recipe",
+      "umccore:mahogany_stairs_recipe",
+      "umccore:mahogany_slab_recipe",
+      "umccore:mahogany_fence_recipe",
+      "umccore:mahogany_fence_gate_recipe",
+      "umccore:mahogany_pressure_plate_recipe",
+      "umccore:mahogany_button_recipe",
+      "umccore:mahogany_stick_recipe",
+      "umccore:mahogany_pickaxe_recipe",
+      "umccore:mahogany_axe_recipe",
+      "umccore:mahogany_sword_recipe",
+      "umccore:mahogany_shovel_recipe",
+      "umccore:mahogany_hoe_recipe"
+    ]
+  },
+  "parent": "umccore:umc"
+}

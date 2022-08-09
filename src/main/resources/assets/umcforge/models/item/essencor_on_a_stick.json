@@ -1,8 +1,0 @@
-{
-  "parent": "umcforge:custom/essencoronastick",
-  "textures": {
-    "0": "umcforge:blocks/essencor2",
-    "1": "umcforge:blocks/essencor1",
-    "particle": "umcforge:items/db2"
-  }
-}

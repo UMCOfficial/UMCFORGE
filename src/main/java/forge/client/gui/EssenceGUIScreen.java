@@ -17,7 +17,7 @@ import forge.world.inventory.EssenceGUIMenu;
 
 import forge.network.EssenceGUIButtonMessage;
 
-import forge.UmcforgeMod;
+import forge.UmccoreMod;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -39,7 +39,7 @@ public class EssenceGUIScreen extends AbstractContainerScreen<EssenceGUIMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("umcforge:textures/essence_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("umccore:textures/essence_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -56,19 +56,19 @@ public class EssenceGUIScreen extends AbstractContainerScreen<EssenceGUIMenu> {
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("umcforge:textures/arrowup.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("umccore:textures/arrowup.png"));
 		this.blit(ms, this.leftPos + 0, this.topPos + 26, 0, 0, 32, 32, 32, 32);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("umcforge:textures/arrowright.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("umccore:textures/arrowright.png"));
 		this.blit(ms, this.leftPos + 33, this.topPos + 7, 0, 0, 32, 32, 32, 32);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("umcforge:textures/arrowright.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("umccore:textures/arrowright.png"));
 		this.blit(ms, this.leftPos + 74, this.topPos + 7, 0, 0, 32, 32, 32, 32);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("umcforge:textures/arrowright.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("umccore:textures/arrowright.png"));
 		this.blit(ms, this.leftPos + 114, this.topPos + 7, 0, 0, 32, 32, 32, 32);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("umcforge:textures/arrowdown.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("umccore:textures/arrowdown.png"));
 		this.blit(ms, this.leftPos + 143, this.topPos + 27, 0, 0, 32, 32, 32, 32);
 
 		RenderSystem.disableBlend();
@@ -104,7 +104,7 @@ public class EssenceGUIScreen extends AbstractContainerScreen<EssenceGUIMenu> {
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 56, this.topPos + 58, 61, 20, new TextComponent("Convert"), e -> {
 			if (true) {
-				UmcforgeMod.PACKET_HANDLER.sendToServer(new EssenceGUIButtonMessage(0, x, y, z));
+				UmccoreMod.PACKET_HANDLER.sendToServer(new EssenceGUIButtonMessage(0, x, y, z));
 				EssenceGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));

@@ -1,0 +1,10 @@
+{
+  "parent": "umccore:custom/discbench",
+  "textures": {
+    "all": "umccore:blocks/db1",
+    "particle": "umccore:blocks/dbp",
+    "0": "umccore:blocks/db2",
+    "1": "umccore:blocks/db1",
+    "2": "umccore:blocks/oak-planks-7"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "umccore:bread_essence",
+    "umccore:first_essence",
+    "umccore:blank_essence",
+    "umccore:spacey_essence"
+  ]
+}

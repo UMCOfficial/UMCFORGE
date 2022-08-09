@@ -23,11 +23,11 @@ public class HeavenBIOBiome {
 				.foliageColorOverride(-1).grassColorOverride(-1).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("umcforge:grass_heaven_bio", VegetationFeatures.PATCH_GRASS,
+				PlacementUtils.register("umccore:grass_heaven_bio", VegetationFeatures.PATCH_GRASS,
 						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 4), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("umcforge:flower_heaven_bio", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(4),
+				PlacementUtils.register("umccore:flower_heaven_bio", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(4),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);

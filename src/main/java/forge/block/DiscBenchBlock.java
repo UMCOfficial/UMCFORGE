@@ -45,7 +45,7 @@ import io.netty.buffer.Unpooled;
 
 import forge.world.inventory.BenchMenu;
 
-import forge.init.UmcforgeModBlocks;
+import forge.init.UmccoreModBlocks;
 
 import forge.block.entity.DiscBenchBlockEntity;
 
@@ -147,6 +147,6 @@ public class DiscBenchBlock extends Block
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(UmcforgeModBlocks.DISC_BENCH.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(UmccoreModBlocks.DISC_BENCH.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

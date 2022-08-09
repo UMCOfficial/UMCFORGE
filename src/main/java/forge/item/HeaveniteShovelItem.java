@@ -8,7 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public class HeaveniteShovelItem extends ShovelItem {
 	public HeaveniteShovelItem() {
@@ -34,7 +34,7 @@ public class HeaveniteShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(UmcforgeModItems.HEAVENITE.get()));
+				return Ingredient.of(new ItemStack(UmccoreModItems.HEAVENITE.get()));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}

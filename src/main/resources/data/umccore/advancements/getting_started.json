@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "umccore:workbench"
+    },
+    "title": {
+      "translate": "advancements.getting_started.title"
+    },
+    "description": {
+      "translate": "advancements.getting_started.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getting_started": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "umccore:workbench"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "umccore:the_beginning"
+}

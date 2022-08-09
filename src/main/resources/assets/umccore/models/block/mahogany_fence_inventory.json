@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "umccore:blocks/mahogany_planks",
+    "particle": "umccore:blocks/mahogany_planks"
+  }
+}

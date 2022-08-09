@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "umcforge:mahogany_log"
+    "umccore:mahogany_log"
   ]
 }

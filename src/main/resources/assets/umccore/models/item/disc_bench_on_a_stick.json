@@ -1,0 +1,9 @@
+{
+  "parent": "umccore:custom/dsicbenchonastick",
+  "textures": {
+    "0": "umccore:blocks/db2",
+    "1": "umccore:blocks/db1",
+    "2": "umccore:blocks/oak-planks-7",
+    "particle": "umccore:items/db2"
+  }
+}

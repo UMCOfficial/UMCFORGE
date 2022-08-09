@@ -33,7 +33,7 @@ public class WBGUIScreen extends AbstractContainerScreen<WBGUIMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("umcforge:textures/wbgui.png");
+	private static final ResourceLocation texture = new ResourceLocation("umccore:textures/wbgui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -50,7 +50,7 @@ public class WBGUIScreen extends AbstractContainerScreen<WBGUIMenu> {
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("umcforge:textures/arrow.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("umccore:textures/arrow.png"));
 		this.blit(ms, this.leftPos + 87, this.topPos + 25, 0, 0, 32, 32, 32, 32);
 
 		RenderSystem.disableBlend();

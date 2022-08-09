@@ -45,7 +45,7 @@ import io.netty.buffer.Unpooled;
 
 import forge.world.inventory.EssenceGUIMenu;
 
-import forge.init.UmcforgeModBlocks;
+import forge.init.UmccoreModBlocks;
 
 import forge.block.entity.EssenceorBlockEntity;
 
@@ -147,7 +147,7 @@ public class EssenceorBlock extends Block
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(UmcforgeModBlocks.ESSENCEOR.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(UmccoreModBlocks.ESSENCEOR.get(), renderType -> renderType == RenderType.cutout());
 	}
 
 }

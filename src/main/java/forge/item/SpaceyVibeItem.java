@@ -19,13 +19,13 @@ import java.util.List;
 
 import forge.procedures.SpaceyVibeLivingEntityIsHitWithItemProcedure;
 
-import forge.init.UmcforgeModTabs;
-import forge.init.UmcforgeModSounds;
+import forge.init.UmccoreModTabs;
+import forge.init.UmccoreModSounds;
 
 public class SpaceyVibeItem extends RecordItem {
 	public SpaceyVibeItem() {
-		super(0, UmcforgeModSounds.REGISTRY.get(new ResourceLocation("umcforge:spaceyvibe")),
-				new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_DISCS).stacksTo(1).rarity(Rarity.RARE));
+		super(0, UmccoreModSounds.REGISTRY.get(new ResourceLocation("umccore:spaceyvibe")),
+				new Item.Properties().tab(UmccoreModTabs.TAB_UMC_DISCS).stacksTo(1).rarity(Rarity.RARE));
 	}
 
 	@Override

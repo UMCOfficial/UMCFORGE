@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.CreativeModeTab;
 
-import forge.init.UmcforgeModBlocks;
+import forge.init.UmccoreModBlocks;
 
 public class MahoganyHoeItem extends HoeItem {
 	public MahoganyHoeItem() {
@@ -34,7 +34,7 @@ public class MahoganyHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(UmcforgeModBlocks.MAHOGANY_PLANKS.get()));
+				return Ingredient.of(new ItemStack(UmccoreModBlocks.MAHOGANY_PLANKS.get()));
 			}
 		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "umccore:mahogany_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "umccore:mahogany_planks"
+    },
+    "3": {
+      "item": "umccore:mahogany_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "umccore:mahogany_planks"
+    }
+  },
+  "result": {
+    "item": "umccore:mahogany_fence",
+    "count": 3
+  }
+}

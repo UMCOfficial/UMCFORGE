@@ -34,7 +34,7 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-import forge.init.UmcforgeModBlocks;
+import forge.init.UmccoreModBlocks;
 
 public class DisceriteOreFeature extends OreFeature {
 	public static DisceriteOreFeature FEATURE = null;
@@ -43,9 +43,9 @@ public class DisceriteOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new DisceriteOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("umcforge:discerite_ore", FEATURE,
-				new OreConfiguration(DisceriteOreFeatureRuleTest.INSTANCE, UmcforgeModBlocks.DISCERITE_ORE.get().defaultBlockState(), 2));
-		PLACED_FEATURE = PlacementUtils.register("umcforge:discerite_ore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("umccore:discerite_ore", FEATURE,
+				new OreConfiguration(DisceriteOreFeatureRuleTest.INSTANCE, UmccoreModBlocks.DISCERITE_ORE.get().defaultBlockState(), 2));
+		PLACED_FEATURE = PlacementUtils.register("umccore:discerite_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(26)), BiomeFilter.biome()));
 		return FEATURE;
@@ -77,7 +77,7 @@ public class DisceriteOreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("umcforge:discerite_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("umccore:discerite_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

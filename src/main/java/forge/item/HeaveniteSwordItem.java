@@ -8,7 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public class HeaveniteSwordItem extends SwordItem {
 	public HeaveniteSwordItem() {
@@ -34,7 +34,7 @@ public class HeaveniteSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(UmcforgeModItems.HEAVENITE.get()));
+				return Ingredient.of(new ItemStack(UmccoreModItems.HEAVENITE.get()));
 			}
 		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}

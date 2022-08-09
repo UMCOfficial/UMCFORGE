@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "umccore:heavenite_shovel",
+    "umccore:heavenite_armor_helmet",
+    "umccore:heavenite_pickaxe",
+    "umccore:heavenite_sword",
+    "umccore:heavenite",
+    "umccore:heavenite_ore",
+    "umccore:heavenite_armor_boots",
+    "umccore:heavenite_armor_leggings",
+    "umccore:heavenite_armor_chestplate",
+    "umccore:heavenite_block",
+    "umccore:heavenite_axe",
+    "umccore:heavenite_hoe"
+  ]
+}

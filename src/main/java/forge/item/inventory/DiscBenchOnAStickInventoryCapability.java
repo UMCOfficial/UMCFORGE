@@ -20,7 +20,7 @@ import net.minecraft.client.Minecraft;
 import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 import forge.client.gui.BenchScreen;
 
@@ -29,7 +29,7 @@ public class DiscBenchOnAStickInventoryCapability implements ICapabilitySerializ
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntityItem().getItem().getItem() == UmcforgeModItems.DISC_BENCH_ON_A_STICK.get()) {
+		if (event.getEntityItem().getItem().getItem() == UmccoreModItems.DISC_BENCH_ON_A_STICK.get()) {
 			if (Minecraft.getInstance().screen instanceof BenchScreen) {
 				Minecraft.getInstance().player.closeContainer();
 			}
@@ -62,7 +62,7 @@ public class DiscBenchOnAStickInventoryCapability implements ICapabilitySerializ
 
 			@Override
 			public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-				return stack.getItem() != UmcforgeModItems.DISC_BENCH_ON_A_STICK.get();
+				return stack.getItem() != UmccoreModItems.DISC_BENCH_ON_A_STICK.get();
 			}
 
 			@Override

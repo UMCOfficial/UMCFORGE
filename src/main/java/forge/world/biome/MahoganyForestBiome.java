@@ -37,36 +37,36 @@ import net.minecraft.core.Registry;
 
 import java.util.List;
 
-import forge.init.UmcforgeModBlocks;
-import forge.init.UmcforgeModBiomes;
+import forge.init.UmccoreModBlocks;
+import forge.init.UmccoreModBiomes;
 
 public class MahoganyForestBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.057142857143f, 0.057142857143f),
-			Climate.Parameter.span(-0.057142857143f, 0.057142857143f), Climate.Parameter.span(0.452857142857f, 0.567142857143f),
-			Climate.Parameter.span(0.742857142857f, 0.857142857143f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.502806618229f, -0.388520903943f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.142857142857f, 0.142857142857f),
+			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.span(0.367142857143f, 0.652857142857f),
+			Climate.Parameter.span(0.657142857143f, 0.942857142857f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-0.588520903943f, -0.302806618229f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)
 				.foliageColorOverride(10387789).grassColorOverride(9470285)
-				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("umcforge:oceanfish")), 12000, 24000, true)).build();
+				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("umccore:oceanfish")), 12000, 24000, true)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("umcforge:tree_mahogany_forest", FeatureUtils.register("umcforge:tree_mahogany_forest", Feature.TREE,
+				PlacementUtils.register("umccore:tree_mahogany_forest", FeatureUtils.register("umccore:tree_mahogany_forest", Feature.TREE,
 						new TreeConfiguration.TreeConfigurationBuilder(
-								BlockStateProvider.simple(UmcforgeModBlocks.MAHOGANY_LOG.get().defaultBlockState()), new GiantTrunkPlacer(7, 2, 14),
-								BlockStateProvider.simple(UmcforgeModBlocks.MAHOGANY_LEAVES.get().defaultBlockState()),
+								BlockStateProvider.simple(UmccoreModBlocks.MAHOGANY_LOG.get().defaultBlockState()), new GiantTrunkPlacer(7, 2, 14),
+								BlockStateProvider.simple(UmccoreModBlocks.MAHOGANY_LEAVES.get().defaultBlockState()),
 								new MegaPineFoliagePlacer(ConstantInt.of(0), ConstantInt.of(0), UniformInt.of(3, 4)),
 								new TwoLayersFeatureSize(1, 1, 2)).build()),
 						List.of(CountPlacement.of(1), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("umcforge:grass_mahogany_forest", VegetationFeatures.PATCH_GRASS,
+				PlacementUtils.register("umccore:grass_mahogany_forest", VegetationFeatures.PATCH_GRASS,
 						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 4), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
 								BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
-				PlacementUtils.register("umcforge:flower_mahogany_forest", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(4),
+				PlacementUtils.register("umccore:flower_mahogany_forest", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(4),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 		BiomeDefaultFeatures.addBambooVegetation(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
@@ -79,7 +79,7 @@ public class MahoganyForestBiome {
 	}
 
 	public static void init() {
-		BiomeDictionary.addTypes(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(UmcforgeModBiomes.MAHOGANY_FOREST.get())),
+		BiomeDictionary.addTypes(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(UmccoreModBiomes.MAHOGANY_FOREST.get())),
 				BiomeDictionary.Type.FOREST, BiomeDictionary.Type.MESA, BiomeDictionary.Type.PLAINS, BiomeDictionary.Type.SAVANNA,
 				BiomeDictionary.Type.JUNGLE, BiomeDictionary.Type.MAGICAL, BiomeDictionary.Type.RARE, BiomeDictionary.Type.PLATEAU,
 				BiomeDictionary.Type.MODIFIED, BiomeDictionary.Type.OVERWORLD);

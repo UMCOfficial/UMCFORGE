@@ -18,7 +18,7 @@ import forge.world.inventory.EssenceGUIMenu;
 
 import forge.procedures.EGUIProcedure;
 
-import forge.UmcforgeMod;
+import forge.UmccoreMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EssenceGUIButtonMessage {
@@ -72,7 +72,7 @@ public class EssenceGUIButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		UmcforgeMod.addNetworkMessage(EssenceGUIButtonMessage.class, EssenceGUIButtonMessage::buffer, EssenceGUIButtonMessage::new,
+		UmccoreMod.addNetworkMessage(EssenceGUIButtonMessage.class, EssenceGUIButtonMessage::buffer, EssenceGUIButtonMessage::new,
 				EssenceGUIButtonMessage::handler);
 	}
 }

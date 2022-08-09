@@ -38,7 +38,7 @@
     "spawnBiome": true,
     "spawnBiomeNether": true,
     "spawnInCaves": false,
-    "biomeWeight": 4,
+    "biomeWeight": 10,
     "biomeDictionaryTypes": [
       "FOREST",
       "MESA",

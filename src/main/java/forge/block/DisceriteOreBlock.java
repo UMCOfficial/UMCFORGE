@@ -16,7 +16,7 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 public class DisceriteOreBlock extends Block {
 	public DisceriteOreBlock() {
@@ -41,6 +41,6 @@ public class DisceriteOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(UmcforgeModItems.DISCERITE.get()));
+		return Collections.singletonList(new ItemStack(UmccoreModItems.DISCERITE.get()));
 	}
 }

@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
-import forge.init.UmcforgeModBlocks;
+import forge.init.UmccoreModBlocks;
 
 public class MahoganyAxeItem extends AxeItem {
 	public MahoganyAxeItem() {
@@ -34,7 +34,7 @@ public class MahoganyAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(UmcforgeModBlocks.MAHOGANY_PLANKS.get()));
+				return Ingredient.of(new ItemStack(UmccoreModBlocks.MAHOGANY_PLANKS.get()));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}

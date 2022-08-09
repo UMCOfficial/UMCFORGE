@@ -17,7 +17,7 @@ import forge.world.inventory.BenchMenu;
 
 import forge.network.BenchButtonMessage;
 
-import forge.UmcforgeMod;
+import forge.UmccoreMod;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -39,7 +39,7 @@ public class BenchScreen extends AbstractContainerScreen<BenchMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("umcforge:textures/bench.png");
+	private static final ResourceLocation texture = new ResourceLocation("umccore:textures/bench.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -88,7 +88,7 @@ public class BenchScreen extends AbstractContainerScreen<BenchMenu> {
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 54, this.topPos + 53, 61, 20, new TextComponent("convert"), e -> {
 			if (true) {
-				UmcforgeMod.PACKET_HANDLER.sendToServer(new BenchButtonMessage(0, x, y, z));
+				UmccoreMod.PACKET_HANDLER.sendToServer(new BenchButtonMessage(0, x, y, z));
 				BenchButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));

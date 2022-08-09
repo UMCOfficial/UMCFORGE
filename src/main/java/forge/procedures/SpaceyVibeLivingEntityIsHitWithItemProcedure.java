@@ -24,7 +24,7 @@ public class SpaceyVibeLivingEntityIsHitWithItemProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 4000, 1));
 		for (int index0 = 0; index0 < (int) (4000); index0++) {
 			if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
-				ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("umcforge:heaven"));
+				ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("umccore:heaven"));
 				if (_player.level.dimension() == destinationType)
 					return;
 				ServerLevel nextLevel = _player.server.getLevel(destinationType);

@@ -34,7 +34,7 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-import forge.init.UmcforgeModBlocks;
+import forge.init.UmccoreModBlocks;
 
 public class HeaveniteOreFeature extends OreFeature {
 	public static HeaveniteOreFeature FEATURE = null;
@@ -43,9 +43,9 @@ public class HeaveniteOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new HeaveniteOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("umcforge:heavenite_ore", FEATURE,
-				new OreConfiguration(HeaveniteOreFeatureRuleTest.INSTANCE, UmcforgeModBlocks.HEAVENITE_ORE.get().defaultBlockState(), 1));
-		PLACED_FEATURE = PlacementUtils.register("umcforge:heavenite_ore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("umccore:heavenite_ore", FEATURE,
+				new OreConfiguration(HeaveniteOreFeatureRuleTest.INSTANCE, UmccoreModBlocks.HEAVENITE_ORE.get().defaultBlockState(), 1));
+		PLACED_FEATURE = PlacementUtils.register("umccore:heavenite_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(27)), BiomeFilter.biome()));
 		return FEATURE;
@@ -55,7 +55,7 @@ public class HeaveniteOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("umcforge:heaven_bio"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("umccore:heaven_bio"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public HeaveniteOreFeature() {
@@ -77,7 +77,7 @@ public class HeaveniteOreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("umcforge:heavenite_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("umccore:heavenite_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

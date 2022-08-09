@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "umcforge:mahogany_wood",
-    "umcforge:mahogany_log"
+    "umccore:mahogany_wood",
+    "umccore:mahogany_log"
   ]
 }

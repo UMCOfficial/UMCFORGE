@@ -16,11 +16,11 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-import forge.init.UmcforgeModTabs;
+import forge.init.UmccoreModTabs;
 
 public class BlankEssenceItem extends Item {
 	public BlankEssenceItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_ESSENCES).stacksTo(9).fireResistant().rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(UmccoreModTabs.TAB_UMC_ESSENCES).stacksTo(9).fireResistant().rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

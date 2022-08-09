@@ -30,14 +30,14 @@ import io.netty.buffer.Unpooled;
 
 import forge.world.inventory.BenchMenu;
 
-import forge.init.UmcforgeModBlockEntities;
+import forge.init.UmccoreModBlockEntities;
 
 public class DiscBenchBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public DiscBenchBlockEntity(BlockPos position, BlockState state) {
-		super(UmcforgeModBlockEntities.DISC_BENCH.get(), position, state);
+		super(UmccoreModBlockEntities.DISC_BENCH.get(), position, state);
 	}
 
 	@Override

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "umccore:essenceor"
+    },
+    "title": {
+      "translate": "advancements.essence_away.title"
+    },
+    "description": {
+      "translate": "advancements.essence_away.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "essence_away": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "umccore:essenceor"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "umccore:getting_started"
+}

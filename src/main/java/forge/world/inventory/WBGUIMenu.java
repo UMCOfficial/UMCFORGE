@@ -24,9 +24,9 @@ import java.util.HashMap;
 
 import forge.network.WBGUISlotMessage;
 
-import forge.init.UmcforgeModMenus;
+import forge.init.UmccoreModMenus;
 
-import forge.UmcforgeMod;
+import forge.UmccoreMod;
 
 public class WBGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
@@ -38,7 +38,7 @@ public class WBGUIMenu extends AbstractContainerMenu implements Supplier<Map<Int
 	private boolean bound = false;
 
 	public WBGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(UmcforgeModMenus.WBGUI, id);
+		super(UmccoreModMenus.WBGUI, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
 		this.internal = new ItemStackHandler(10);
@@ -291,7 +291,7 @@ public class WBGUIMenu extends AbstractContainerMenu implements Supplier<Map<Int
 
 	private void slotChanged(int slotid, int ctype, int meta) {
 		if (this.world != null && this.world.isClientSide()) {
-			UmcforgeMod.PACKET_HANDLER.sendToServer(new WBGUISlotMessage(slotid, x, y, z, ctype, meta));
+			UmccoreMod.PACKET_HANDLER.sendToServer(new WBGUISlotMessage(slotid, x, y, z, ctype, meta));
 			WBGUISlotMessage.handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 		}
 	}

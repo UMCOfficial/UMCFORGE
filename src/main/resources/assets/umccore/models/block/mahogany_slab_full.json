@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "umccore:blocks/mahogany_planks",
+    "top": "umccore:blocks/mahogany_planks",
+    "side": "umccore:blocks/mahogany_planks"
+  }
+}

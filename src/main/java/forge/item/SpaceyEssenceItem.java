@@ -16,11 +16,11 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-import forge.init.UmcforgeModTabs;
+import forge.init.UmccoreModTabs;
 
 public class SpaceyEssenceItem extends Item {
 	public SpaceyEssenceItem() {
-		super(new Item.Properties().tab(UmcforgeModTabs.TAB_UMC_ESSENCES).stacksTo(1).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(UmccoreModTabs.TAB_UMC_ESSENCES).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override

@@ -32,8 +32,8 @@ public class MahoganyAncientHouseFeature extends Feature<NoneFeatureConfiguratio
 
 	public static Feature<?> feature() {
 		FEATURE = new MahoganyAncientHouseFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("umcforge:mahogany_ancient_house", FEATURE, FeatureConfiguration.NONE);
-		PLACED_FEATURE = PlacementUtils.register("umcforge:mahogany_ancient_house", CONFIGURED_FEATURE, List.of());
+		CONFIGURED_FEATURE = FeatureUtils.register("umccore:mahogany_ancient_house", FEATURE, FeatureConfiguration.NONE);
+		PLACED_FEATURE = PlacementUtils.register("umccore:mahogany_ancient_house", CONFIGURED_FEATURE, List.of());
 		return FEATURE;
 	}
 
@@ -41,9 +41,9 @@ public class MahoganyAncientHouseFeature extends Feature<NoneFeatureConfiguratio
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("umcforge:mahogany_forest"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("umccore:mahogany_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD,
-			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("umcforge:heaven")));
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("umccore:heaven")));
 	private StructureTemplate template = null;
 
 	public MahoganyAncientHouseFeature() {
@@ -55,7 +55,7 @@ public class MahoganyAncientHouseFeature extends Feature<NoneFeatureConfiguratio
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("umcforge", "mahoganyancienthouse"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("umccore", "mahoganyancienthouse"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;

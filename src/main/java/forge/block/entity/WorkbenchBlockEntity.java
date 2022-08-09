@@ -30,14 +30,14 @@ import io.netty.buffer.Unpooled;
 
 import forge.world.inventory.WBGUIMenu;
 
-import forge.init.UmcforgeModBlockEntities;
+import forge.init.UmccoreModBlockEntities;
 
 public class WorkbenchBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(10, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public WorkbenchBlockEntity(BlockPos position, BlockState state) {
-		super(UmcforgeModBlockEntities.WORKBENCH.get(), position, state);
+		super(UmccoreModBlockEntities.WORKBENCH.get(), position, state);
 	}
 
 	@Override

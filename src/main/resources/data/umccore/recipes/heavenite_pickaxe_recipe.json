@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "umccore:heavenite"
+    },
+    "1": {
+      "item": "umccore:heavenite"
+    },
+    "2": {
+      "item": "umccore:heavenite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "umccore:heavenite_pickaxe",
+    "count": 1
+  }
+}

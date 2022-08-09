@@ -18,7 +18,7 @@ import forge.world.inventory.WBGUIMenu;
 
 import forge.procedures.WBGUIPProcedure;
 
-import forge.UmcforgeMod;
+import forge.UmccoreMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class WBGUISlotMessage {
@@ -112,6 +112,6 @@ public class WBGUISlotMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		UmcforgeMod.addNetworkMessage(WBGUISlotMessage.class, WBGUISlotMessage::buffer, WBGUISlotMessage::new, WBGUISlotMessage::handler);
+		UmccoreMod.addNetworkMessage(WBGUISlotMessage.class, WBGUISlotMessage::buffer, WBGUISlotMessage::new, WBGUISlotMessage::handler);
 	}
 }

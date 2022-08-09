@@ -1,0 +1,9 @@
+{
+  "parent": "umccore:custom/essencor",
+  "textures": {
+    "all": "umccore:blocks/essencor2",
+    "particle": "umccore:blocks/essencor2",
+    "0": "umccore:blocks/essencor2",
+    "1": "umccore:blocks/essencor1"
+  }
+}

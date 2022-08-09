@@ -18,7 +18,7 @@ import forge.world.inventory.BenchMenu;
 
 import forge.procedures.BenchguiProcedure;
 
-import forge.UmcforgeMod;
+import forge.UmccoreMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BenchButtonMessage {
@@ -72,6 +72,6 @@ public class BenchButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		UmcforgeMod.addNetworkMessage(BenchButtonMessage.class, BenchButtonMessage::buffer, BenchButtonMessage::new, BenchButtonMessage::handler);
+		UmccoreMod.addNetworkMessage(BenchButtonMessage.class, BenchButtonMessage::buffer, BenchButtonMessage::new, BenchButtonMessage::handler);
 	}
 }

@@ -20,7 +20,7 @@ import net.minecraft.client.Minecraft;
 import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
 
-import forge.init.UmcforgeModItems;
+import forge.init.UmccoreModItems;
 
 import forge.client.gui.EssenceGUIScreen;
 
@@ -29,7 +29,7 @@ public class EssencorOnAStickInventoryCapability implements ICapabilitySerializa
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntityItem().getItem().getItem() == UmcforgeModItems.ESSENCOR_ON_A_STICK.get()) {
+		if (event.getEntityItem().getItem().getItem() == UmccoreModItems.ESSENCOR_ON_A_STICK.get()) {
 			if (Minecraft.getInstance().screen instanceof EssenceGUIScreen) {
 				Minecraft.getInstance().player.closeContainer();
 			}
@@ -62,7 +62,7 @@ public class EssencorOnAStickInventoryCapability implements ICapabilitySerializa
 
 			@Override
 			public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-				return stack.getItem() != UmcforgeModItems.ESSENCOR_ON_A_STICK.get();
+				return stack.getItem() != UmccoreModItems.ESSENCOR_ON_A_STICK.get();
 			}
 
 			@Override
